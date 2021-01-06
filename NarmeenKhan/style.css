@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+/*Section 1 starts here*/
+.page1{
+    background-color: white;
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: brown;
+  }
+div.services{
+    text-align: center;
+}
+hr{
+    width:20%;
+    align-items: center;  
+    color: goldenrod;  
+} 
+h4{
+    color: black;
+}
+h5{
+    padding-top: 100px;
+    color: gray;
+}
+.gridBox1{
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 100px;    
+}
+.box1{
+    border: none;
+    padding: 0px 240px;
+}
+/*Section 1 ends here*/
+
+/*Section 2 Starts here*/
+.page2{
+    background-color: rgb(238, 238, 238);
+}
+th{
+    padding: 30px;
+}
+
+.grid-table1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-item1{
+    border: black 2px;
+    padding: 10px 50px;
+    background-color: white;
+    margin: 10px 40px;
+}
+
+.grid-table2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 100px;
+}
+.grid-item2{
+    border: black 2px;
+    padding: 10px 50px;
+    background-color: white;
+    margin: 10px 40px;
+}
+.expertise{
+    text-align: center;
+}
+.section2{
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+/*Section 2 ends here*/
+
+/*Section 3 starts here*/
+.gridBox3{
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 100px;
+}
+.box3{
+    border: none;
+    margin-left: 250px;
+}
+.portfolio{
+    text-align: center;
+}
+.grid-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.list1{
+    border: none;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     list-style-type: none;
+     padding: 0px 400px;
+  }
+/*Section 3 ends here*/
+
+/*Section 4 starts here*/
+.page4{
+    background-color: rgb(238, 238, 238);;
+}
+.testimonials{
+      text-align: center;
+  }
+.testimonial img{
+    border-radius: 20%;
+}
+  .testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 100px;
+}
+.testimonial{
+    padding: 10px 50px;
+    background-color: white;
+    margin: 10px 40px;
+    text-align: center;
+}
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: brown;
+  }
+.button2{
+    opacity: 100;
+}
+/*Section 4 ends here*/
+
+/*Section 5 starts here*/
+.articles{
+    text-align: center;
+}
+.grid-article{
+    display:grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 200px;
+}
+.article{
+    border: none;
+    padding: 0px 240px;
+}
+/*Section 5 ends here*/
+
+/*Section 6 starts here*/
+.page6{
+    background-color: rgb(238, 238, 238);
+}
+.contacts{
+    text-align: center;
+}
+.grid-contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.contact{
+    border: none;
+    padding: 10px 50px;
+    background-color: white;
+    margin: 10px 40px;
+    text-align: center;
+}
+
+form{
+    padding-bottom: 100px;
+}
+
+.form-bg{
+    text-align: center;
+    display: block;
+    width: 90%;
+    padding: 20px;
+    padding-left: 50px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+textarea{
+    width: 100%;
+}
+/*Section 6 ends here*/
