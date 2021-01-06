@@ -81,6 +81,9 @@ th{
 .expertise{
     text-align: center;
 }
+progress{
+    width: 450px;
+}
 .section2{
     text-align: center;
 }
@@ -115,8 +118,11 @@ table{
 ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-     list-style-type: none;
-     padding: 0px 400px;
+    list-style-type: none;
+    padding: 0px 400px;
+  }
+.li{
+      color: black;
   }
 /*Section 3 ends here*/
 
@@ -141,22 +147,31 @@ ul {
     margin: 10px 40px;
     text-align: center;
 }
-.container2 {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-.centered2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: brown;
-  }
-.button2{
-    opacity: 100;
+.page-5{
+    background-image: url(./img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
 }
+
+
+.center2 {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .center2 input{
+      width: 15%;
+      opacity: 0.4;
+      border: solid black 1px;
+      color: black;
+      border-radius: 10px;
+  }
 /*Section 4 ends here*/
 
 /*Section 5 starts here*/
