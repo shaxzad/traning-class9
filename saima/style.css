@@ -272,7 +272,7 @@ body{
     box-sizing: border-box;
 }
 .inside-box1{
-    border: 1px solid red;
+    border: 1px solid crimson;
     border-radius: 5rem;
     margin: 8px 120px;
     width: 50px;
