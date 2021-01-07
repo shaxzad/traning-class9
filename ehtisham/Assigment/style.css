@@ -1,0 +1,189 @@
+
+.s1{
+    background-image: url(IMG_20210103_132253_384.jpg);
+    background-size: 1449px;
+    background-position: -3px 0px;
+}
+.home .d2{
+    background-color: lightgrey;
+
+}
+.d3{
+    text-align: center;
+}
+.home{
+    border-radius: 60px;
+    background-color: lightgrey;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 3px;  
+    padding:40px;
+}
+
+.s4{
+    background-color: lightgrey;
+}
+.d1{
+    height: 350px;
+    background-image: url(charles-chen-dKsA5xl8Ygo-unsplash.jpg);
+    background-position: 40% 5%;
+    background-size: 459px;}
+.d2{
+   
+    background-color: white;
+
+}
+.navs{ 
+font-size: 18px;
+
+}
+.fa-bring-forward{
+    font-size: 40px;
+    color: red;
+}
+.fa-mug-hot{
+    color: red;
+    font-size: 30px;
+}
+.fa-home{
+    color: red;
+    font-size: 30px;
+}
+.s3 .d5{
+    text-align: center;
+    
+}
+.s2{
+    background-color: white ;
+}
+.s3 .b1{
+    background-color: red;
+    color: white;
+
+}
+.d4{
+    opacity: initial;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+hr{
+    border-top: 1px solid red;
+    width: 55px;
+}
+.DD{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 70px;
+    margin-left: 195px;
+}
+.fa-facebook{
+    color: blue;
+    font-size:40px;
+}
+.fa-twitter{
+    color: blue;
+    font-size:40px;
+}
+.fa-instagram{
+    color: red;
+    font-size:40px;
+}
+.d8{
+    background-image: url(albert-dera-ILip77SbmOE-unsplash.jpg);
+    background-size: 131px;
+    height: 130px;
+    width: 130px;
+    border-radius: 90px;
+}
+.d11{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+ 
+    padding: 0% 22%;
+   
+}
+.d13{
+    background-image:url(aziz-acharki-H90Af2TFqng-unsplash.jpg);
+    background-size: 586px;
+    background-position: 72% 36%;
+    height: 156px;
+    width: 292px;
+}
+.d13a{
+    background-image: url(jon-tyson-XzUMBNmQro0-unsplash.jpg);
+    background-size: 703px;
+    background-position: 83% 36%;
+    height: 156px;
+    width: 292px;
+}
+.d13b{
+    background-image: url(danielle-macinnes-IuLgi9PWETU-unsplash.jpg);
+    background-size: 540px;
+    background-position: 81% 92%;
+    height: 156px;
+    width: 292px;}
+    .d13c{
+        background-image:url(diego-ph-fIq0tET6llw-unsplash.jpg);
+        background-size: 310px;
+        background-position: 86% 57%;
+        height: 156px;
+        width: 292px;}
+        .d13d{
+            background-image:url(jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg);
+            background-size: 310px;
+            background-position: 86% 57%;
+            height: 156px;
+            width: 292px;}
+.d13e{
+    background-image: url(katie-moum-iRMUDX0kyOc-unsplash.jpg);
+    background-size: 293px;
+    background-position: 66% 44%;
+    height: 156px;
+    width: 292px;}
+.d12{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 8px;
+    padding-left: 32px;
+}
+.d15{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+}
+.d16a{
+    border: solid px black;
+    background-color: white;
+    width: 273px;
+    height: 357px;
+}
+.d16b{
+    background-color: white;
+    width: 273px;
+    height: 357px;
+}
+.d16c{
+    background-color: white;
+    width: 273px;
+    height: 357px;
+}
+.s6{
+    margin-left:49px;
+}
+.d18{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.d18a{
+    height: 90px;
+    width: 337px;
+    background-color: white;
+}
+.a1{
+    color:white;
+    text-align:right;
+}
