@@ -1,0 +1,314 @@
+.icons{
+  text-align: center;
+  font-size: 2rem;
+  display: inline-block;
+
+
+}
+.sec1{
+	background-image: url(../images/flower.jpeg);
+	background-size: cover;
+	padding-top: 35px;
+	padding-right: 40px;
+	margin-right: 40px;
+	height: 70vh;
+	width: 100%;
+	
+
+}
+.button{
+	color: black;
+	background-color: red;
+	box-shadow: inset;
+	bottom: 50%;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top:50px;
+}
+.butnsec{
+	height: 15vh;
+	background-color: red
+}
+.sec2{
+	
+	padding-top: 10px;
+	border: currentColor;
+	background-color: white;
+	padding-right: 10px;
+	padding-left: 20%;
+	margin: 40px;
+	
+
+
+}
+.list{
+	
+	display: inline-block;
+	color: solid black;
+	
+	padding-right: 50px;
+	text-align: center;
+
+
+
+
+}
+.list-1{
+	display: inline-block;
+	padding-right: 5%;
+	text-align: left;
+
+
+}
+.list-2{
+	display: inline-block;
+	color: red;
+	
+}
+.sec3{
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	padding-left: 20%;
+	padding-right: 10%;
+	font-size: 20px;
+}
+.sec4{
+color: white;
+height: 20px;
+font-size: 40px;
+}
+
+.sec5{
+	text-transform: uppercase;
+	color: red;
+	width: 40%;
+	padding-top: 10%;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+	padding-bottom: 10%;
+
+}
+.sec6{
+	display: inline-block;
+	text-align: right;
+	padding: 20px 40px;/*
+	padding-left: 40%;*/
+	width: 40%;
+	border-left: 2px solid red;
+/*	padding-bottom: 30%;*/
+}
+.sec7{
+	display: inline-block;
+	background-size: cover;
+
+ }
+ .img{
+ 	background-color: black;
+ }
+.sec8{
+	
+	font-size: 2rem;
+	background-color: black;
+	color:  white;
+	text-align: center;
+	padding-left: 0%;
+	padding-right: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	border-left: 20px black;
+	width:45% 
+
+
+}
+.sec9{
+
+	
+	color: red;
+	
+
+}
+.button1{
+	color: white;
+	font-size: 50px;
+	background-color: red;
+}
+.sec10{
+ font-size: 2rem;
+ text-align: center;
+ color: blue;
+ display: inline-block;
+ background-image: url(../images/tree.jpg);
+
+ 
+}
+.head{
+	text-align: center;
+	font-size: 2.5rem;
+	 
+	padding-left: 8rem;
+	padding-top: 6rem;
+}
+.sec11{
+	background-color: red;
+	display: inline-block;
+
+}
+.imeg{
+    display: inline-block;
+    width: 50%;	
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+.head11{
+	text-align: center;
+	font-size: 2rem;
+	padding-left: 45rem;
+}
+.button2{
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+.sec12{
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 6rem;
+	color: black;
+}
+.text1{
+	font-size: 1.5rem;
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
+.name{
+	color: red;
+	text-decoration: underline;
+}
+
+.sec13{
+	background-color: black;
+	color: white;
+	font-size: 1rem;
+	text-align: left;
+    padding-right: 40rem;
+    padding-left: 4rem;
+    padding-bottom: 6rem;
+}
+.head4{
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: red;
+	padding-top: 6rem;
+
+
+	
+
+}
+.button4{
+	font-size: 2rem;
+	color: white;
+	background-color: red;
+	float: right;
+	margin-right: 99rem;
+	text-transform: uppercase;
+}
+.sec14{
+	text-transform: uppercase;
+	font-size: 3rem;
+	
+	padding-bottom: 2rem;
+	text-align: left;
+
+}
+.sec15{
+font-size: 2rem;
+text-transform: uppercase;
+text-align: center;
+vertical-align: sub;
+background-color: pink;
+}
+.sec16{
+text-transform: uppercase;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+	text-align:center;
+	;	
+}
+
+
+.row {
+	display: flex;
+	margin: 20px 0;
+	background-color: red;
+	color: white;
+}
+
+.col-md-4 {
+	flex: 1;
+	margin: 0;
+}
+.rosa{
+	text-align: center;
+	font-size: 3rem;
+	padding-top: 5rem;
+	text-transform: uppercase;
+}
+.button6{
+	text-align: left;
+	background-color: red;
+	color: white;
+	font-size: 2rem;
+	
+}
+.bottom{
+	background-color: black;
+	font-size: 2rem;
+	color: white;
+}
+.lg {
+	flex: 2;
+
+}
+.col-md-5{
+	text-align: left;
+	padding-right: 8rem;
+
+
+}
+.sec16{
+	padding-right: 3rem;
+}
+.sec17{
+	display: inline-block;
+	font-size: 1.5rem;
+    background-color: black;
+	color: white;
+
+    
+}
+.button11{
+
+	display: inline-block;
+	text-align: right;
+	padding-left: 70rem;
+	
+}
+.icon2{
+
+    display: inline-block;
+    word-spacing: 1rem;
+    display: right;
+	
+}
+.icons{
+	display: inline-block;
+	color: white;
+}
+.sec18{
+	background-color: black;
+}
+.sec17-h6{margin-right: 20rem;
+	font-size: 1.5rem;
+}
