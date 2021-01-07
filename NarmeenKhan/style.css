@@ -81,15 +81,15 @@ th{
 .expertise{
     text-align: center;
 }
-progress{
-    width: 450px;
-}
 .section2{
     text-align: center;
 }
 table{
     width: 100%;
     text-align: left;
+}
+progress{
+    width: 450px;
 }
 /*Section 2 ends here*/
 
@@ -118,11 +118,8 @@ table{
 ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    list-style-type: none;
-    padding: 0px 400px;
-  }
-.li{
-      color: black;
+     list-style-type: none;
+     padding: 0px 400px;
   }
 /*Section 3 ends here*/
 
@@ -155,8 +152,6 @@ ul {
     height: 60vh;
     width: 100%;
 }
-
-
 .center2 {
     font-size: 40px;
     display: flex;
