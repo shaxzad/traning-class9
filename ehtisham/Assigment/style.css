@@ -4,22 +4,23 @@
     background-size: 1449px;
     background-position: -3px 0px;
 }
-.home .d2{
-    background-color: lightgrey;
-
+.d2{
+    margin-left: 10px;
 }
 .d3{
     text-align: center;
 }
 .home{
     border-radius: 60px;
-    background-color: lightgrey;
+
     display:grid;
     grid-template-columns: 50% 50%;
     grid-gap: 3px;  
     padding:40px;
 }
-
+body{
+    margin: 0px;
+}
 .s4{
     background-color: lightgrey;
 }
@@ -81,16 +82,28 @@ hr{
     margin-left: 195px;
 }
 .fa-facebook{
-    color: blue;
-    font-size:40px;
+    border: solid;
+    border-color: black;
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+    font-size:20px;
 }
 .fa-twitter{
-    color: blue;
-    font-size:40px;
+    border: solid;
+    border-color: black;
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+    font-size:20px;
 }
 .fa-instagram{
-    color: red;
-    font-size:40px;
+    border: solid;
+    border-color: black;
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+    font-size:20px;
 }
 .d8{
     background-image: url(albert-dera-ILip77SbmOE-unsplash.jpg);
