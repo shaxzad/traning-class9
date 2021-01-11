@@ -3,16 +3,81 @@ body{
     font-family: sans-serif;
     padding: 0px;
 }
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.slider {
+    position: relative;
+    background: url('./img/banner.jpg') no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.heading {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    position:relative;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.sub-heading h2 span,
+.heading span {
+    position: absolute;
+    font-size: 28px;
+    font-weight: 100;
+    top: -50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.sub-heading h2 {
+    position: relative;
+    color: #333;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sub-heading h2 span {
+    font-size: 20px;
+    color: #999;
+    top: -35px;
+}
 .btn {
     letter-spacing: 1px;
     padding: 5px 10px;
     border: 1px solid;
+    margin-top: 10px;
 }
 .btn-primary {
-    background-color: blue;
+    background-color: rgb(51, 51, 240);
     color: white;
-    border-color: blue;
+    border-color: rgb(51, 51, 240);
     border-radius: 4px;
+    opacity: 0.9;
 }
 .btn-primary:hover {
     background-color: red;
@@ -67,7 +132,7 @@ h6{
     color: white;
 }
 h4{
-    color: black;
+    color: white;
 }
 h5{
     padding-top: 100px;
@@ -76,70 +141,59 @@ h5{
 /*Section 1 end here*/
 
 /*Section 2 starts here*/
-.sec2{
-    background-color: white;
-}
-div.services{
-    text-align: center;
-}
-.gridBox1{
-    display:grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 30px;
-    padding-bottom: 80px;    
-}
+
 .box1{
     border: none;
-    padding: 0px 240px;
+    display: flex;
+    /* padding: 0px 240px; */
+}
+
+.box1 div {
+    flex: 1;
+    margin: 15px;
+}
+
+.box1 div img {
+    width: 100%;
+    height: 100%;
 }
 /*Section 2 ends here*/
 
 /*Section 3 Starts here*/
-.sec3{
+.section-padding2{
     background-color: rgb(238, 238, 238);
+    padding: 80px 0;
 }
-.expertise{
-    text-align: center;
-}
-table{
-    width: 100%;
-    text-align: left;
-}
-th{
-    padding: 30px;
+.grid-item1 h3 {
+    color: #333;
+    font-size: 15px;
 }
 .grid-table1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 15px;
+    
 }
 .grid-item1{
     border: black 2px;
     padding: 10px 50px;
     background-color: white;
-    margin: 10px 40px;
+    margin: 15px;
 }
-.grid-table2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 80px;
-}
-.grid-item2{
-    border: black 2px;
-    padding: 5px 50px;
-    background-color: white;
-    margin: 5px 40px;
+.grid-item1 p{
+    color: #333;
+    line-height: 1.8;
 }
 progress{
     width: 450px;
+    height: 10px;
 }
 /*Section 3 ends here*/
 
 /*Section 4 starts here*/
-.sec4{
+.section-padding3{
  background-color: white;
-}
-.portfolio{
-    text-align: center;
+ padding: 80px 0;
 }
 .container-fluid{
     margin-left: 250px;
@@ -168,25 +222,27 @@ progress{
     background-color: blue;
     color: white;
 }
-.gridBox3{
-    display:grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 10px;
-    padding-bottom: 80px;
-}
-.box3{
+.box1{
     border: none;
-    padding: 0px 240px;
+    display: flex;
+    /* padding: 0px 240px; */
 }
 
+.box1 div {
+    flex: 1;
+    margin: 15px;
+}
+
+.box1 div img {
+    width: 100%;
+    height: 100%;
+}
 /*Section 4 ends here*/
 
 /*Section 5 starts here*/
-.sec5{
-    background-color: rgb(238, 238, 238);;
-}
-.testimonials{
-      text-align: center;
+.section-padding4{
+    background-color: rgb(238, 238, 238);
+    padding: 80px 0;
 }
   .testimonial-grid{
     display: grid;
@@ -228,9 +284,8 @@ progress{
 /*Section 6 ends here*/
 
 /*Section 7 starts here*/
-
-.articles{
-    text-align: center;
+.section-padding5{
+    padding: 80px 0;
 }
 .grid-article{
     display:grid;
@@ -245,11 +300,9 @@ progress{
 /*Section 7 ends here*/
 
 /*Section 8 starts here*/
-.sec8{
+.section-padding6{
     background-color: rgb(238, 238, 238);
-}
-.contacts{
-    text-align: center;
+    padding: 80px 0;
 }
 .grid-contact{
     display: grid;
@@ -283,5 +336,4 @@ textarea{
     width: 100%;
     border: none;
 }
-
 /*Section 8 ends here*/
