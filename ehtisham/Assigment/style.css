@@ -1,6 +1,10 @@
-
+.h1{
+    margin-left:282px;
+    font-size: 30px;
+    color: white;
+}
 .s1{
-    background-image: url(IMG_20210103_132253_384.jpg);
+    background-image: url(./images/IMG_20210103_132253_384.jpg);
     background-size: 1449px;
     background-position: -3px 0px;
 }
@@ -25,10 +29,11 @@ body{
     background-color: lightgrey;
 }
 .d1{
-    height: 350px;
-    background-image: url(charles-chen-dKsA5xl8Ygo-unsplash.jpg);
+    height: 340px;
+    background-image: url(./images/qwe.png);
     background-position: 40% 5%;
-    background-size: 459px;}
+    background-size: 480px;
+}
 .d2{
    
     background-color: white;
@@ -36,7 +41,27 @@ body{
 }
 .navs{ 
 font-size: 18px;
-
+}
+.navs1:hover{
+    color: red;
+}
+.navs2:hover{
+    color: red;
+}
+.navs3:hover{
+    color: red;
+}
+.navs4:hover{
+    color: red;
+}
+.navs5:hover{
+    color: red;
+}
+.navs6:hover{
+    color: red;
+}
+.navs7:hover{
+color: red;
 }
 .fa-bring-forward{
     font-size: 40px;
@@ -57,7 +82,18 @@ font-size: 18px;
 .s2{
     background-color: white ;
 }
-.s3 .b1{
+.bb{
+    background: transparent;
+    color: white;
+    border-radius: 90px; 
+    border-color: white;
+    padding: 10px;
+}
+.bb:hover{
+    background-color:red;
+}
+.b1{
+    padding: 9px;
     background-color: red;
     color: white;
 
@@ -65,11 +101,11 @@ font-size: 18px;
 .d4{
     opacity: initial;
     border: solid;
-    border-width: 1px;
-    border-color: black;
+    border-width: 0.5px;
+    border-color: rgb(95, 94, 94);
     width: 200px;
     height: 200px;
-    background-color: white;
+    background-color: lightgrey;
 }
 hr{
     border-top: 1px solid red;
@@ -83,30 +119,41 @@ hr{
 }
 .fa-facebook{
     border: solid;
-    border-color: black;
+    border-color: rgb(36, 35, 35);
     border-radius: 50px;
     background-color: black;
     color:white;
-    font-size:20px;
+    font-size:25px;
+    border-width: 2px;
 }
 .fa-twitter{
     border: solid;
-    border-color: black;
+    border-color: rgb(36, 35, 35);
     border-radius: 50px;
-    background-color: black;
+    color:black;
+    border-width: 2px;
+    font-size:25px;
+}
+.fa-linkedin{
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(36, 35, 35);
+    border-radius: 50px;
     color:white;
-    font-size:20px;
+    background-color: black;
+    font-size:25px;
 }
 .fa-instagram{
     border: solid;
-    border-color: black;
+    border-width: 2px;
+    border-color: rgb(36, 35, 35);
     border-radius: 50px;
-    background-color: black;
     color:white;
-    font-size:20px;
+    background-color: black;
+    font-size:25px;
 }
 .d8{
-    background-image: url(albert-dera-ILip77SbmOE-unsplash.jpg);
+    background-image: url(./images/albert-dera-ILip77SbmOE-unsplash.jpg);
     background-size: 131px;
     height: 130px;
     width: 130px;
@@ -120,40 +167,41 @@ hr{
    
 }
 .d13{
-    background-image:url(aziz-acharki-H90Af2TFqng-unsplash.jpg);
-    background-size: 586px;
-    background-position: 72% 36%;
+    background-image: url(./images/a.png);
+    background-size: 292px;
+    background-position: 52% 133%;
     height: 156px;
     width: 292px;
 }
 .d13a{
-    background-image: url(jon-tyson-XzUMBNmQro0-unsplash.jpg);
-    background-size: 703px;
-    background-position: 83% 36%;
+    background-image: url(./images/b.png);
+    background-size: 292px;
+    background-position: 33% 54%;
     height: 156px;
     width: 292px;
 }
 .d13b{
-    background-image: url(danielle-macinnes-IuLgi9PWETU-unsplash.jpg);
-    background-size: 540px;
+    background-image: url(./images/c.png);
+    background-size: 247px;
     background-position: 81% 92%;
     height: 156px;
     width: 292px;}
     .d13c{
-        background-image:url(diego-ph-fIq0tET6llw-unsplash.jpg);
-        background-size: 310px;
-        background-position: 86% 57%;
+        background-image: url(./images/d.png);
+        background-size: 264px;
+        background-position: 13% 57%;
         height: 156px;
-        width: 292px;}
+        width: 292px;
+    }
         .d13d{
-            background-image:url(jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg);
+            background-image:url(./images/e.png);
             background-size: 310px;
             background-position: 86% 57%;
             height: 156px;
             width: 292px;}
 .d13e{
-    background-image: url(katie-moum-iRMUDX0kyOc-unsplash.jpg);
-    background-size: 293px;
+    background-image: url(./images/f.png);
+    background-size: 241px;
     background-position: 66% 44%;
     height: 156px;
     width: 292px;}
@@ -164,9 +212,10 @@ hr{
     padding-left: 32px;
 }
 .d15{
+    margin-left: 49px;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-
+    grid-template-columns: 30.33% 30.33% 30.33%;
+    grid-gap: 21px;
 }
 .d16a{
     border: solid px black;
@@ -185,7 +234,7 @@ hr{
     height: 357px;
 }
 .s6{
-    margin-left:49px;
+padding: 20px; 
 }
 .d18{
     display: grid;
@@ -199,4 +248,8 @@ hr{
 .a1{
     color:white;
     text-align:right;
+}
+.b1:hover{
+    background-color:gold;
+    
 }
