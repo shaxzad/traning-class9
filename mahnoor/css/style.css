@@ -1,0 +1,88 @@
+html,
+body{
+margin: 0%;
+padding: 0%;
+}
+.section{
+    background-image: url(../images/11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 32rem;
+}
+.section div{
+    color: white;
+    display: inline-block;
+}
+.div{
+    display: inline-fle;
+    padding: 1rem;
+}
+.unorder{
+   word-spacing: 1rem;
+   display: inline-flex;
+}
+.unorder li {
+    margin-right: 10px;
+}
+.container{
+    width: 70%;
+}
+.division{
+    margin: 3rem;
+}
+.btn{
+    color: black;
+    padding-left: 60rem;
+}
+.thead{
+    background-color: black;
+    color: white;
+}
+.heading{
+    border: 1px solid white;
+    width: 20%;
+    margin-left: 35rem;
+}
+.sec{
+    background-color: black;
+    color: white;
+    height: 20rem;
+
+}
+.iv{
+    text-align: center;
+    padding-top: 4rem;
+}
+.span{
+    font-size: 4rem;
+    padding:0 2rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+    margin-bottom: 4rem;
+    margin-left: 23rem;
+}
+.span1{
+    font-size: 4rem;
+    padding:0 2rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+}
+.span2{
+    font-size: 4rem;
+    padding:0 2rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+    margin-bottom: 4rem;
+    margin-left: 6rem;
+}
+.divi{
+    display: flex;
+
+}
+.divin{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+}
