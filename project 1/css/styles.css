@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0l
+}
+.ist-sec{
+	background:#090908;
+	color: white;
+}
+.ist-sec li{
+    display: inline-block;
+    padding: 10px 25px;
+    
+}
+.ist-sec li:hover{
+	background: black;
+	color: white;
+	border: 1px solid white
+}
+.ist-sec h2{
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: 10;
+	padding: 1em 1em;
+}
+.ist-sec div {
+	display: inline-block;
+}
+.ist-sec .img-div{
+	padding-left: 5em;
+}
+.content-div{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+
+}
+.second-section{
+	width: 100%;
+	height: 100vh;
+	background-color: gray;
+
+}
+.sec  h2{
+	margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
