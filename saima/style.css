@@ -406,20 +406,21 @@ body{
 #sec5{
     background-color:white;
     width:100%;
-    height: 140vh;
+    height: 100%;
 }
 .main-div{
     display: grid;
-    grid-template-columns: 37% 37% 37%;
-    grid-row-gap: 15px;
-    padding: 2% 13%;
+    grid-template-columns: 35% 35% 35%;
+    grid-row-gap: 2%;
+    grid-column-gap: 2px;
+    margin: 0% 4%;
 }
 #sec5 .para2 h1{
-    margin: 5px 14%;
+    margin: 5px 5%;
     font-size: 30px;
     }
 #sec5 .para2 p{
-       padding-left: 14%;
+       padding-left: 4%;
     }
 .con-common {
     width: 350px;
@@ -428,7 +429,7 @@ body{
     border: 3px solid whitesmoke;
 }
 .con-common img{
-    width: 300px;
+    width: 350px;
     height: 260px;
 }
 
@@ -447,42 +448,45 @@ body{
 #sec6{
     background-color: white;
     width: 100%;
-    height: 50%;
+    padding-top: 4%;
 }
 #sec6 .left-side{
-    width: 360px;
+    width: 450px;
     height: 250px;
     background-color: lightgray;
     border: none;
-    padding-left: 10%;
+    margin: 0% 8%;
+    padding: 2% 3%;
 }
 #sec6 .right-side{
-    width: 360px;
-    height: 250px;
+    width: 450px;
+    height: 240px;
     background-color: lightgray;
     border: none;
-    padding-left: 10%;
+    margin: 0% 5%;
+    padding: 2% 3%;
 }
 #sec6 .sides{
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-column-gap: 30px;
-    margin-left:18%;
-    padding: 2%;   
+    grid-column-gap: 6%;
+    margin-left:7%;
+    padding: 2%;
+      
 }
 #sec6 .para3 h1{
-    margin: 5px 14%;
+    margin: 5px 11%;
     font-size: 35px;
     }
 #sec6 .para3 p{
-       padding-left: 14%;
+       padding-left: 11%;
     }
 #sec6 .left-side img{
     width: 50px;
     height: 50px;
     border-radius: 2rem;
     border: 2px double red;
-    margin-left:-5% ;
+    margin-left:-3% ;
     position: absolute;
     margin-top:7% ;
     
@@ -492,7 +496,7 @@ body{
     height: 50px;
     border-radius: 2rem;
     border: 2px double red;
-    margin-left:-7% ;
+    margin-left:-3% ;
     position: absolute;
     margin-top:7% ;   
 }
@@ -507,10 +511,12 @@ body{
     margin: 20px 8rem;
 }
 .left-side p{
-    padding-left: 0px; 
+    font-size: 18px;
+    padding-left: 20px; 
 }
 .right-side p{
-    padding-left: 0px; 
+    font-size: 18px;
+    padding-left: 20px; 
 }
 /* section six end here */
 /* section seven start here */
