@@ -413,7 +413,7 @@ right: 34%;
 
 /* section 9 */
 .sec9{
-    height: 470px;
+    height: 500px;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -447,7 +447,7 @@ right: 34%;
 }
 /* section 10 */
 .sec10{
-    height: 70px;
+    height: 80px;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -476,5 +476,5 @@ right: 34%;
 }
 .sec10 .grid-9 .box10-2 i{
     padding: 15px;
-    padding-left: 35px;
+    padding-left: 11px;
 }
