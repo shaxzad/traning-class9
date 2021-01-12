@@ -1,0 +1,277 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(54, 54, 54);
+}
+/* first section classes start here */
+.container{
+    background-image: url(../images/maxwell-ridgeway-TzQuh8vQaZ0-unsplash.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 769px;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    margin-left: 30px;
+}
+.navbar img{
+    margin-top: 38px;
+    margin-left: 70px;
+    border: 1px solid rgb(209, 201, 201);
+    border-radius: 50px;
+}
+.navbar img:hover{
+    background-color: white;
+}
+.navbar ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100%;
+}
+li{
+    text-align: center;
+    list-style: none;
+    margin-top: 60px;
+    margin-right: 0px;
+}
+.navbar a{
+    border: 1px solid rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.heading-text{
+    margin-top: 12%;
+    margin-left: 50%;
+}
+h4{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    margin: 0px;
+    text-align: start;
+}
+span{
+    font-weight:bolder;
+    letter-spacing: 10px;
+}
+span:hover{
+    color: rgb(51, 162, 253);
+}
+/* 1st section classes end here */
+
+/* 2nd section classes start here */
+.sec2{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec2 h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    margin-bottom: 3%;
+}
+.sec2-heading-design{
+    width: 270px;
+    text-align: center;
+}
+.gallery-heading{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+}
+.gallery-heading a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+.gallery-heading a:hover{
+    opacity: 1.0;
+}
+.sec2 .gallery-heading li, a{
+    margin: 0%;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-bottom: 5%;
+}
+img{
+    margin: 0%;
+}
+.sec2-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 20px;
+    margin-left: 20%;
+}
+.sec2-images img{
+    width: 300px;
+}
+.sec2-images img:hover{
+    opacity: 0.9;
+}
+
+/*------------2nd section classes end here---------------*/
+
+/* 3rd section classes start here */
+.sec3{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec3-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5%;
+}
+.sec3 img{
+    width: 600px;
+    margin-left: 3%;
+}
+.sec3 h2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    margin-top: 0%;
+}
+.sec3-heading-design{
+    width: 270px;
+    margin-left: 0%;
+}
+label,  #file{
+    width: 90%;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:  20px;
+    border-radius: 0%;
+    margin-left: -10%;
+}
+/*------------3rd section classes end here---------------*/
+/*------------4th section classes start here---------------*/
+.sec4{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec4 h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    margin-top: 10%;
+}
+.sec4-heading-design{
+    width: 270px;
+    margin-left: 0%;
+}
+.sec4 p{
+    text-align: center;
+    margin-top: 3%;
+}
+.sec4 img{
+    width: 500px;
+    margin-left: 10%;
+}
+.sec4-rightgrid{
+    margin-left: -15%;
+}
+.sec4-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sec4-grid h3{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif   ;
+    color: rgb(51, 49, 49);
+}
+.sec4-grid-text{
+    width: 60%;
+    margin-left: 0%;
+}
+.sec4-grid-text p{
+    text-align: start;
+}
+.sec4-btn button{
+        border-radius: 0px;
+        border: 1px solid;
+        padding: 10px;
+        margin-top: 2%;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+}
+.sec4-btn button:hover{
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+.sec4-btn button:focus{
+    cursor: pointer;
+}
+/* ----4th section ends here */
+.sec5{
+    background-image: url(../images/conor-luddy-IVaKksEZmZA-unsplash.jpg);
+    background-color: white;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec5 .sub-img h3{
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+.sec5 .sub-img input{
+    margin-left: 42%;
+}
+.sec5 .sub-img p{
+    color: white;
+    font-size:
+}
+.sec5 .sub-img .btn{
+    margin-left: 46%;
+}
+.sec5 .sub-img .btn button{
+    border-radius: 0px;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 2%;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+}
+.sec5 .sub-img .btn button:hover{
+background-color: rgb(29, 27, 27);
+color: white;
+}
+.sec5 .sub-img .btn button:focus{
+cursor: pointer;
+}
+
+/* foooter classes starts here */
+/*------------footer classes end here---------------*/
