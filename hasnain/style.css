@@ -67,9 +67,10 @@ body{
 /* section 2 */
 .sec2{
    background-color:white;
-   height: 509px;
+   height: 625px;
    width: 100%;
    font-family: cursive;
+   padding-top: 60px;
    
 }
 .sec2 .grid-0 .grid-h h2::first-letter{
@@ -90,8 +91,8 @@ body{
 .sec2 .grid-h i{
     padding-right: 11px;
     position: relative;
-    right: 8px;
-    top: 10px;
+    left: 6px;
+    top: 20px;
 }
 
 .sec2 .grid-h .heading-1{
@@ -121,7 +122,7 @@ body{
 
 /* section 3 */
 .sec3{
-    height: 294px;
+    height: 380px;
     width: 100%;
     background-color:pink;
     background-size: 100% 100%;
@@ -130,7 +131,13 @@ body{
 }
 .sec3 .grid-1{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 18px;
+
+}
+.sec3 .grid-1 i{
+   position: relative;
+   right: 40px;
 }
 .grid-1{
     padding-top: 91px;
@@ -140,7 +147,7 @@ body{
 }
 .sec3 .grid-1 p{
     position: absolute;
-    margin-left: 39px;
+    margin-left: -39px;
     font-size: 1.7rem;
 }
 .sec3 .grid-1 p::after{
@@ -156,40 +163,41 @@ body{
 .sec3 .grid-1 h4{
 
    font-size: 1rem;
-left: 0%;
+right: 34%;
     top: 40%;
     position: relative;
 }
 .sec3 .grid-1 .h4-1{
 
     font-size: 1rem;
-     left: 14%;
+     right: 20%;
      top: 40%;
      position: relative;
  }
  .sec3 .grid-1 .h4-2{
 
     font-size: 1rem;
-     left: 11%;
+     right: 23%;
      top: 40%;
      position: relative;
  }
  .sec3 .grid-1 .h4-3{
 
     font-size: 1rem;
-     left: 11%;
+     right: 26%;
      top: 40%;
      position: relative;
  }
 
  /* section 4 */
  .sec4{
-     height: 774px;
+     height: 875px;
      width: 100%;
      background-color:white;
      box-sizing: border-box;
      overflow: hidden;
-     
+     padding-left: 60px;
+     padding-top: 25px;
      font-family: cursive;
    
  }
@@ -211,11 +219,16 @@ left: 0%;
     margin: 0px;
     font-size: 1.4rem;
  }
+ .sec4 .grid-2 .box5 .progress-bar{
+     width: 70%;
+     cursor: pointer;
+     
+ }
  /* section 5 */
  .sec5{
-     height: 800PX;
+     height: 830PX;
      width: 100%;
-     background-color:rgba(245, 245, 245, 0.87);
+     background-color:rgba(245, 245, 245, 0.925);
      box-sizing: border-box;
      overflow: hidden;
      font-family: cursive;
@@ -246,10 +259,10 @@ left: 0%;
  }
  .sec5 .grid-3 .box8{
      display: grid;
-     grid-template-columns:19.5% 19.5% 19.5%;
+     grid-template-columns:21% 21% 21%;
      grid-template-rows: 51%;
      grid-gap: 15px;
-     left: 18.5%;
+     left: 15.5%;
      position: relative;
      padding-top: 40px;
      
@@ -257,48 +270,54 @@ left: 0%;
  .box8-1{
      background-color: white;
      height: 200px;
-     width: 250px;
+     width: 270px;
      background-image: url(images/1.jpg);
      background-size: 100% 100%;
+     border: 1px solid black;
  }
  .box8-2{
     background-color: white;
     height: 200px;
-    width: 250px;
+    width: 270px;
     background-image: url(images/2.jpg);
     background-size: 100% 100%;
+    border: 1px solid black;
 }
 .box8-3{
     background-color: white;
     height: 200px;
-    width: 250px;
+    width: 270px;
     background-image: url(images/3.jpg);
     background-size: 100% 100%;
+    border: 1px solid black;
 }
 .box8-4{
     background-color: white;
     height: 200px;
-    width: 250px;
+    width: 270px;
     background-image: url(images/13.jpg);
     background-size: 100% 100%;
+    border: 1px solid black;
 }
 .box8-5{
     background-color: white;
     height: 200px;
-    width: 250px;
+    width: 270px;
     background-image: url(images/16.jpg);
     background-size: 100% 100%;
+    border: 1px solid black;
 }
 .box8-6{
     background-color: white;
     height: 200px;
-    width: 250px;
+    width: 270px;
     background-image: url(images/6.jpg);
     background-size: 100% 100%;
+    border: 1px solid black;
 }
 /* section 6 */
 .sec6{
-    height: 734PX;
+    height: 765PX;
     width: 100%;
      background-color:white;
      box-sizing: border-box;
@@ -331,7 +350,8 @@ left: 0%;
     margin-left: 110px;
     background-image: url(images/17.jpg);
     background-size: 100% 100%;
-    border-radius: 10px;
+    border-radius: 3px;
+    border: 0.5px solid black;
 }
 .box12{
     border:none;
@@ -341,11 +361,12 @@ left: 0%;
 }
 .sec6 .grid-5 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 44% 44%;
+    padding-left: 25px;
 }
 /* section 7 */
 .sec7{
-    height: 500PX;
+    height: 520PX;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -360,10 +381,15 @@ left: 0%;
 .sec7 .grid-6 .box13-1{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    
 }
 .box13-1{
-    padding-top: 138px;
+    padding-top: 150px;
     padding-left: 155px;
+    
+}
+.sec7 .grid-6 .box13-1 .img-13{
+    border-radius: 58px;
 }
 /* section 8 */
 .sec8{
@@ -434,7 +460,7 @@ left: 0%;
     grid-template-columns: 50% 50%;
 }
 .box10-1{
-    padding-left: 20px;
+    padding-left: 105px;
     padding-top: 20px;
 
 }
@@ -448,24 +474,7 @@ left: 0%;
 .box10-2:hover{
     color:red;
 }
-
-.sec5 .grid-3 .BOX7-1:hover{
-       color: greenyellow;
-       
-}
-.sec5 .grid-3 .BOX7-2:hover{
-    color: red;
-    
-}
-.sec5 .grid-3 .BOX7-3:hover{
-    color: gold;
-    
-}
-.sec5 .grid-3 .BOX7-4:hover{
-    color: peru;
-    
-}
-.sec10 .grid-9 .box10-2, i{
+.sec10 .grid-9 .box10-2 i{
     padding: 15px;
     padding-left: 35px;
 }
