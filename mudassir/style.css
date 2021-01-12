@@ -1,71 +1,112 @@
 body {
-display: grid;
-margin:40px ;
-padding-left: 80px;
-}
-.sec1 
-{
-    background-image: url(./images/1.jpg);
-    background-color: rgb(141, 137, 137);
     margin: 40px;
+
+}
+.sec1 {
+    background-image: url(./images/1.jpg);
+    height: 644px;
     padding-left: 80px;
     color: white;
-    margin-right: 60px; 
+}
+.sec1 h1 {
+    font-size:40px;
+}
+.sec1 .div2 {
+background-color: steelblue;
+width: 90px;
+padding-left: 20px;
+float: right;
 }
 .btn {
-padding: 8px 20px;
-letter-spacing: 0px;
-background-color:rgb(54, 147, 223);
-border: 2px;
-border-radius: 15px;
-color: white;
-}
-.btn:hover{
-    background-color: rgb(243, 216, 61);
-}
-.sec3 {
-margin: 40px;
-padding-left: 80px;
-background-image: url(./images/2.jpg);
-}  
-.sec3 .box1{
-    background-color: whitesmoke;
-    width: 340px;
-    border-radius: 15px ;
-}
-.sec3 .box2{
-    text-align: center ;
-    background-color: whitesmoke;
-    width: 340px;
+    padding: 8px 20px;
+    letter-spacing: 0px;
+    background-color:rgb(54, 147, 223);
+    border: 2px;
     border-radius: 15px;
-}  
-.sec3 .box3 {
-    background-color: whitesmoke;
-    width: 340px;
-    border-radius: 15px;
-}
-.sec4 {
-    background-image: url(./images/3.jpg); 
-    margin: 40px;
-color: white;
-height: 300px;
-}
-.sec4{
-    font-size: 20px;
-    display: grid;
-    grid-template-columns:  20% 20% 20% 20%;
-}
-.sec5{
-    color: steelblue;
-    margin: 40px;
-    padding-left: 80px;
-}
-.sec6 {
-    padding-left: 30px;
+    color: white;
+    }
+    .btn:hover{
+        background-color: rgb(243, 216, 61);
+    }
+    .sec2 .div1 {
+        padding-top: 60px;
+        padding-left: 80px;
+        color: rgb(57, 115, 221);
+    }
+    .sec3 .box1{
+        padding-left: 90px;
+        padding-top: 30px;
+        border: 3px;
+        border-radius: 5px;
+        background-color: rgb(228, 220, 220);
+        width: 128px;
+        font-size: 13px;
+    }
+    .sec3 .box2{
+        padding-top: 30px;
+        border: 3px;
+        border-radius: 5px;
+        background-color: rgb(228, 220, 220);
+        width: 194px;
+        font-size: 13px;
+    }
+    .sec3 .box3{
+        padding-top: 30px;
+        border: 3px;
+        border-radius: 5px;
+        background-color: rgb(228, 220, 220);
+        width: 194px;
+        font-size: 13px;   
+    }
+    .sec3 {
+        display: grid;
+        grid-template-columns: 40% 40% 40%;
+    }
+    .sec4{
+        padding-left: 350px;
+        padding-top: 100px;
+    }
+    .sec5{
+       padding-left: 350px;
+padding-top: 30px;
+background-color: rgb(228, 218, 218);
+    }
+    .sec6{
+        background-color: rgb(228, 218, 218);
+        padding-left: 350px;
+        padding-top: 30px;
+    }
+    .sec6 .btn2 {
+            padding: 8px 20px;
+            letter-spacing: 0px;
+            background-color:rgb(54, 147, 223);
+            border: 2px;
+            border-radius: 15px;
+            color: white;
+            }
+            .btn2:hover{
+                background-color: rgb(243, 216, 61);
+    }
+    .sec7 {
+    background-image: url(./images/n.jpg);
+    background-position: 0%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-}
-.sec7 {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-}
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
+    .sec8{
+        padding-top: 50px;
+    }
+    .sec9 {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        background-color:whitesmoke;
+        padding-bottom: 70px;
+    }
+    .sec10 {
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 35% 30% 35%;
+    }
