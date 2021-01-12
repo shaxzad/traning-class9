@@ -28,7 +28,7 @@
 .butnsec{
 	height: 15vh;
 	background-color: red
-}
+	}
 .sec2{
 	
 	padding-top: 10px;
@@ -172,10 +172,13 @@ font-size: 40px;
 	margin-bottom: 3rem;
 }
 .sec12{
+	background-color: dimgray;
 	text-align: center;
 	font-size: 2rem;
 	padding-top: 6rem;
 	color: black;
+	border-radius: 2px;
+
 }
 .text1{
 	font-size: 1.5rem;
@@ -190,21 +193,18 @@ font-size: 40px;
 .sec13{
 	background-color: black;
 	color: white;
-	font-size: 1rem;
+	font-size: 2rem;
 	text-align: left;
     padding-right: 40rem;
     padding-left: 4rem;
-    padding-bottom: 6rem;
+	padding-bottom: 6rem;
+	size: 100%;
 }
-.head4{
+.head4{ 
 	font-size: 2rem;
 	text-transform: uppercase;
 	color: red;
 	padding-top: 6rem;
-
-
-	
-
 }
 .button4{
 	font-size: 2rem;
