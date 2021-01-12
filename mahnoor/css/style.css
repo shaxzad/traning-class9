@@ -48,7 +48,7 @@ padding: 0%;
     display: inline-block;
 }
 .div{
-    display: inline-fle;
+    display: inline-flex;
     padding: 1rem;
 }
 .unorder{
@@ -85,24 +85,26 @@ padding: 0%;
     padding-top: 4rem;
 }
 .span{
-    font-size: 4rem;
-    padding:0 2rem;
+    font-size: 2rem;
+    padding:1rem 2rem;
     margin-top: 3rem;
     border: 1px solid black;
     margin-bottom: 4rem;
-    margin-left: 23rem;
+    margin-left: 10rem;
+    
 }
 .span1{
-    font-size: 4rem;
-    padding:0 2rem;
+    font-size: 2rem;
+    padding:1rem 2rem;
     margin-top: 3rem;
     border: 1px solid black;
     margin-bottom: 4rem;
     margin-left: 6rem;
+    
 }
 .span2{
-    font-size: 4rem;
-    padding:0 2rem;
+    font-size: 2rem;
+    padding:1rem 2rem;
     margin-top: 3rem;
     border: 1px solid black;
     margin-bottom: 4rem;
@@ -110,7 +112,7 @@ padding: 0%;
 }
 .divi{
     display: flex;
-
+    
 }
 .divin{
     text-align: center;
