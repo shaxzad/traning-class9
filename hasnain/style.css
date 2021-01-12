@@ -23,13 +23,16 @@ body{
     color:white ;
 }
  .btn-secondary{
-    width:53vh;
+    width:89vh;
     padding: 12px;
     cursor: pointer;
-}
-.btn-secondary:hover{
     background-color: black;
     color: white;
+    border: 2px white solid;
+}
+.btn-secondary:hover{
+    background-color:white;
+    color: rgb(240, 21, 21);
 }
 .btn-primary-theme{
     padding: 15px;
@@ -46,7 +49,7 @@ body{
 .sec1{
     height: 450px;
     width: 100%;
-    background-image: url(images/11.jpg);
+    background-image: url(images/30.jpg);
     background-size: 100% 100%;
     display: grid;
     grid-template-columns: repeat(1, 1rf);
@@ -72,6 +75,18 @@ body{
    font-family: cursive;
    padding-top: 60px;
    
+}
+.sec2 .grid-0 i:hover{
+    color:white;
+}
+.sec2 .grid-0 .mouse:hover{
+    color:yellow;
+}
+.sec2 .project-1{
+    text-shadow: 2px 2px 8px black;
+}
+.sec2 .grid-0 .talent-1{
+    text-shadow: 2px 2px 8px black;
 }
 .sec2 .grid-0 .grid-h h2::first-letter{
     color:black;
@@ -100,20 +115,32 @@ body{
     height: 12vh;
     border: 1px solid black;
 }
+.sec2 .grid-h .heading-1:hover{
+    background-color: greenyellow;
+}
 .sec2 .grid-h .heading-2{
     width: 12vh;
     height: 12vh;
     border: 1px solid black;
+}
+.sec2 .grid-h .heading-2:hover{
+    background-color: greenyellow;
 }
 .sec2 .grid-h .heading-3{
     width: 12vh;
     height: 12vh;
     border: 1px solid black;
 }
+.sec2 .grid-h .heading-3:hover{
+    background-color: greenyellow;
+}
 .sec2 .grid-h .heading-4{
     width: 12vh;
     height: 12vh;
     border: 1px solid black;
+}
+.sec2 .grid-h .heading-4:hover{
+    background-color: greenyellow;
 }
 .sec2 .grid-h .mouse{
     position: relative;
@@ -126,8 +153,9 @@ body{
     width: 100%;
     background-color:pink;
     background-size: 100% 100%;
-    background-image: url(images/12.jpg);
+    background-image: url(images/29.jpg);
     font-family: cursive;
+    overflow: hidden;
 }
 .sec3 .grid-1{
     display: grid;
@@ -218,11 +246,14 @@ right: 34%;
  .sec4 .grid-2 .box5 .h-3{
     margin: 0px;
     font-size: 1.4rem;
+    text-shadow: 2px 2px 8px black;
  }
  .sec4 .grid-2 .box5 .progress-bar{
      width: 70%;
      cursor: pointer;
-     
+ }
+ .sec4 .grid-2 .box5 .progress-bar:hover{
+     background-color: black;
  }
  /* section 5 */
  .sec5{
@@ -237,6 +268,9 @@ right: 34%;
      border:none;
      text-align: center;
      padding-top: 37px;
+ }
+ .sec5 .grid-3 .box6 .recent-1{
+     text-shadow: 2px 2px 8px black;
  }
  .sec5 .grid-3{
      display: grid;
@@ -262,34 +296,62 @@ right: 34%;
      grid-template-columns:21% 21% 21%;
      grid-template-rows: 51%;
      grid-gap: 15px;
-     left: 15.5%;
+     left: 16.3%;
      position: relative;
      padding-top: 40px;
      
  }
+ .sec5 .grid-3 .box7 .BOX7-1{
+    text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-1:hover{
+      color:red;
+ }
+ .sec5 .BOX7-2{
+    text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-2:hover{
+    color:aqua;
+}
+ .sec5 .BOX7-3{
+    text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-3:hover{
+    color:green;
+}
+ .sec5 .BOX7-4{
+     text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-4:hover{
+    color:rgb(214, 248, 19);
+}
  .box8-1{
      background-color: white;
      height: 200px;
      width: 270px;
-     background-image: url(images/1.jpg);
+     background-image: url(images/31.jpg);
      background-size: 100% 100%;
      border: 1px solid black;
+     cursor: pointer;
+     
  }
  .box8-2{
     background-color: white;
     height: 200px;
     width: 270px;
-    background-image: url(images/2.jpg);
+    background-image: url(images/12.jpg);
     background-size: 100% 100%;
     border: 1px solid black;
+    cursor: pointer;
 }
 .box8-3{
     background-color: white;
     height: 200px;
     width: 270px;
-    background-image: url(images/3.jpg);
+    background-image: url(images/6.jpg);
     background-size: 100% 100%;
     border: 1px solid black;
+    cursor: pointer;
 }
 .box8-4{
     background-color: white;
@@ -298,22 +360,25 @@ right: 34%;
     background-image: url(images/13.jpg);
     background-size: 100% 100%;
     border: 1px solid black;
+    cursor: pointer;
 }
 .box8-5{
     background-color: white;
     height: 200px;
     width: 270px;
-    background-image: url(images/16.jpg);
+    background-image: url(images/30.jpg);
     background-size: 100% 100%;
     border: 1px solid black;
+    cursor: pointer;
 }
 .box8-6{
     background-color: white;
     height: 200px;
     width: 270px;
-    background-image: url(images/6.jpg);
+    background-image: url(images/11.jpg);
     background-size: 100% 100%;
     border: 1px solid black;
+    cursor: pointer;
 }
 /* section 6 */
 .sec6{
@@ -325,13 +390,9 @@ right: 34%;
      font-family: cursive;
      
 }
- .sec6 .box12 .btn-a:hover{
-     background-color:black;
-     color: white;
- }
- .sec6 .box12 .btn-a{
-     padding: 19px;
- }
+.sec6 .project-1{
+    text-shadow: 2px 2px 8px black;
+}
 .box9{
     text-align: center;
     padding-top: 30px;
@@ -348,7 +409,7 @@ right: 34%;
     height: 400px;
     background-color: white;
     margin-left: 110px;
-    background-image: url(images/17.jpg);
+    background-image: url(images/13.jpg);
     background-size: 100% 100%;
     border-radius: 3px;
     border: 0.5px solid black;
@@ -370,7 +431,7 @@ right: 34%;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
-    background-color:rgba(245, 245, 245, 0.568);
+    background-color:rgba(245, 245, 245, 0.712);
     font-family: cursive;
 
 }
@@ -388,6 +449,9 @@ right: 34%;
     padding-left: 155px;
     
 }
+.sec7 .project-1{
+    text-shadow: 2px 2px 8px black;
+}
 .sec7 .grid-6 .box13-1 .img-13{
     border-radius: 58px;
 }
@@ -402,11 +466,33 @@ right: 34%;
     text-align: center;
     padding-top: 54px;
     font-family: cursive;
+   
 }
 .sec8 .message{
-    height: 13vh;
-    width: 53vh;
+    height: 16vh;
+    width: 88vh;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
     
+}
+.first-input{
+    padding: 11px 45px;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.second-input{
+    padding: 11px 45px;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.third-input{
+    padding: 50px 187px;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
 }
 
 
@@ -444,6 +530,9 @@ right: 34%;
     position: absolute;
     margin-top: 25px;
     
+}
+.sec9 .project-1{
+    text-shadow: 2px 2px 8px black;
 }
 /* section 10 */
 .sec10{
