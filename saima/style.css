@@ -182,7 +182,7 @@ body{
     margin-top: 0px; 
 }
 .sec .sec3-boxes i{
-    padding: 8% 40%;
+    padding: 15% 40%;
     font-size: 25px;
 }
 /* section two end here */
@@ -526,11 +526,11 @@ body{
 }
  .heading h1{
     font-size: 35px;
-    margin-left: 14%;
+    margin-left: 12%;
     text-transform: capitalize;
 }
 .heading p{
-    margin-left: 9%;
+    margin-left: 12%;
     text-transform: capitalize;
 }
 .image1 img {
