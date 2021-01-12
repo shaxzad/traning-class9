@@ -1,17 +1,17 @@
 /* helper classes start here */
 body{
     margin: 0px 0px;
-    padding: 0px;
     background-color: white;
     overflow-x: hidden;
-   
 }
 .container-fluid{
-    margin: -15px 0px;
-    padding: 15px 0px;
+    margin: 0px 0px;
+    padding: 7px 10px;
 }
-
-/* helper classes end here */
+.container{
+    margin: 0px;
+    padding: 1px 100px;
+}
 .btn {
     letter-spacing: 1px;
     padding: 5px 10px;
@@ -35,10 +35,12 @@ body{
 .btn-primary:focus{
     outline: none;
 }
+/* helper classes end here */
+/* header section start here */
 #head{
     background-color: lightgray;
     padding: 20px 80px;
-    width: 100%;
+    width: 90%;
     height:4rem;
 }
 .nav-bar .list1{
@@ -52,78 +54,84 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 50%;
+    padding: 15px 10px;
 }
 .nav-bar .list1 li a:hover{
-    background-color: grey;
+    background-color: lightseagreen;
     color: blue;
 }
 .nav-bar .list1 li a:active{
     background-color: blue;
     color: black;
 }
-.container .icons{
+.main-icons .icons{
     float: right;
-    margin: -30px 15%;
+    margin: -40px 10%;
 }
-.container .icons a{
+.main-icons .icons a{
     color: black;
     padding: 5px;  
 }
- 
+/* header section end here */
+/* section one start here */
 #sec1{
-    background-image:url(./assets/images/pngfind.com-indian-girl-png-121233.png);
+    background-image:url(./assets/images/NicePng_girl-with-laptop-png_2585789.png);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: 75%; 
 }
-.class1{
-    margin: 0% 10%;
-}
+
 .division h1{
     text-align: left;
-    margin-left: 3.5rem;
+    margin-left: 4rem;
     font-size: 45px;
-    padding-top: 8rem;
+    padding-top: 10rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .division p{
     text-align: left;
     font-size: 18px;
     text-transform: capitalize;
-    padding-left: 50px;
+    padding-left: 55px;
 }
 .division button i{
     color: white;
     font-size: 12px;
 }
 #sec1 table{
-    margin: 30% 5%;
+    margin: 8% 5%;
 }
 #sec1 table th,td{
     text-align: left;
     text-transform: capitalize;
     padding: 0px 5px;
 }
+/* section one end here */
+/* section two start here */
 #sec2{
     background-color:white;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .sec2-heading h1{
-     margin: 6% 14%;
+     margin: 0% 5%;
      text-transform: capitalize; 
      font-size: 40px;
 } 
 .division1 img{
-    width: 350px;
+    width: 400px;
     height: 300px;
-    margin-left: 45%;
+    margin-left: 13%;
     background-color: whitesmoke;
+}
+.division2{
+    width: 50rem;
 }
 #sec2 .grid{
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 35% 65%;
+    grid-column-gap: 5px;
     padding-top: 2%;
 }
 #sec2 .sub-grid{
@@ -132,43 +140,42 @@ body{
 }
 #sec2 .box1{
     border: none;
-    width:250px;
+    width:350px;
     height: 150px;
     text-transform: capitalize;
     padding: 2%;
 }
 #sec2 .box2{
     border: none;
-    width:250px;
+    width:350px;
     height: 150px;
     text-transform: capitalize;
     padding: 2%;
 }
 #sec2 .box1 p{
-    font-size: 18px;
+    font-size: 19px;
 }
 #sec2 .box2 p{
-    font-size: 18px;
+    font-size: 19px;
 }
 .para1 h3{
+    margin: 0px 10%;
     text-transform: capitalize;
-    margin: 0px 90px;
 }
-.class2{
-    margin: 0% 5%;
+.sec{
+    padding: 40px 0px;
 }
 .sec .sec3-boxes .bx1, .bx2, .bx3, .bx4, .bx5, .bx6{
     border: none;
-    width: 150px;
-    height: 130px;
+    width: 160px;
+    height: 140px;
     background-color:lightgray;
 } 
 .sec .sec3-boxes{
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
-    grid-column-gap: 5px;
-    padding-top: 0px;
-    margin-left: 10%;
+    grid-column-gap: 15px;
+    margin-left: 5%;
 }
 .sec .sec3-boxes p{
     padding: 2px 30px;
@@ -178,7 +185,8 @@ body{
     padding: 8% 40%;
     font-size: 25px;
 }
-
+/* section two end here */
+/* section three start here */
 #sec3{
     width: 100%;
     height: 100vh;
@@ -187,8 +195,8 @@ body{
 .boxes{
     display: grid;
     grid-template-columns: 55% 45%;
-    grid-column-gap: 5px;
-    margin:0px 13% ;
+    grid-column-gap: 2px;
+    margin:0px 4% ;
     padding: 40px 10px;   
 }
 .boxes h3,p{
@@ -273,8 +281,8 @@ body{
     height: 460px;
     box-sizing: border-box;
    }
- 
-
+ /* section three end here */
+ /* section four start here */
 #sec4{
     background-color: white;
     width: 100%;
@@ -285,51 +293,51 @@ body{
 .div-boxes .box1{
     border: 1px solid black;
     background-color:lightgray;
-    width: 280px;
+    width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box2{
     border: 1px solid black;
     background-color:lightgray;
-    width: 280px;
+    width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box3{
     border: 1px solid black;
     background-color:lightgray;
-    width: 280px;
+    width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box4{
     border: 1px solid black;
     background-color: lightgray;
-    width: 280px;
+    width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box5{
     border: 1px solid black;
     background-color: lightgray;
-    width: 280px;
+    width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box6{
     border: 1px solid black;
     background-color:lightgray;
-    width: 280px;
+    width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes {
-    margin: 2% 15%;
+    margin: 2% 5%;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-column-gap: 45px;
-    grid-row-gap: 15px;
+    grid-column-gap: 5%;
+    grid-row-gap: 2%;
     box-sizing: border-box;
 }
 .inside-box1{
@@ -387,12 +395,14 @@ body{
     font-size: 25px;
 }
 #sec4 .para1 h1{
-    margin: 5px 14%;
+    margin: 5px 5%;
     font-size: 30px;
 }
 #sec4 .para1 p{
-    padding-left: 14%;  
+    padding-left: 5%;  
 }
+/* section four end here */
+/* section five start here */
 #sec5{
     background-color:white;
     width:100%;
@@ -400,7 +410,7 @@ body{
 }
 .main-div{
     display: grid;
-    grid-template-columns: 35% 35% 35%;
+    grid-template-columns: 37% 37% 37%;
     grid-row-gap: 15px;
     padding: 2% 13%;
 }
@@ -411,66 +421,17 @@ body{
 #sec5 .para2 p{
        padding-left: 14%;
     }
-.con1{
-    width: 300px;
+.con-common {
+    width: 350px;
     height: 320px;
     background-color: white;
     border: 3px solid whitesmoke;
 }
-.con2{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border: 3px solid whitesmoke;
-}
-.con3{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border: 3px solid whitesmoke;
-}
-.con4{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border: 3px solid whitesmoke;
-}
-.con5{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border: 3px solid whitesmoke;
-}
-.con6{
-    width: 300px;
-    height: 320px;
-    background-color: white;
-    border: 3px solid whitesmoke;
-}
-.con1 img{
+.con-common img{
     width: 300px;
     height: 260px;
 }
-.con2 img{
-    width: 300px;
-    height: 260px;
-}
-.con3 img{
-    width: 300px;
-    height: 260px;
-}
-.con4 img{
-    width: 300px;
-    height: 260px;
-}
-.con5 img{
-    width: 300px;
-    height: 260px;
-}
-.con6 img{
-    width: 300px;
-    height: 260px;
-}
+
 #sec5 .main-div p{
     padding-left: 2%;
     text-transform: capitalize;
@@ -481,6 +442,8 @@ body{
     margin-top: -13%;
     color: red;
 }
+/* section five end here */
+/* section six start here */
 #sec6{
     background-color: white;
     width: 100%;
@@ -549,6 +512,8 @@ body{
 .right-side p{
     padding-left: 0px; 
 }
+/* section six end here */
+/* section seven start here */
 #sec7{
     width: 100%;
     height: 100vh;
@@ -664,6 +629,8 @@ body{
     text-transform: capitalize;
     padding: 0px 20px;
 }
+/* section seven end here */
+/* section eight start here */
 #sec8{
     width: 100%;
     height: 100vh;
