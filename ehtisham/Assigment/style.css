@@ -193,6 +193,22 @@ hr{
         height: 156px;
         width: 292px;
     }
+    .d11a:hover{
+background-color:red;
+border-radius: 40px;    
+}
+    .d11b:hover{
+background-color:red;
+border-radius: 40px;}
+    .d11c:hover{
+background-color:red;
+border-radius: 40px; }
+    .d11d:hover{
+background-color:red;
+border-radius: 40px;  }
+    .d11e:hover{
+background-color:red;
+border-radius: 40px; }
         .d13d{
             background-image:url(./images/e.png);
             background-size: 310px;
