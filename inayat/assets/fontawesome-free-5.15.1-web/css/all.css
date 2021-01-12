@@ -2,7 +2,7 @@
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-.fa,
+.fa, 
 .fas,
 .far,
 .fal,
@@ -249,7 +249,7 @@ readers do not read off random characters that represent icons */
 .fa-allergies:before {
   content: "\f461"; }
 
-.fa-amazon:before {
+.fa-amazon:before { 
   content: "\f270"; }
 
 .fa-amazon-pay:before {
@@ -272,7 +272,7 @@ readers do not read off random characters that represent icons */
 
 .fa-angellist:before {
   content: "\f209"; }
-
+/*  */
 .fa-angle-double-down:before {
   content: "\f103"; }
 
