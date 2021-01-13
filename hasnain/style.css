@@ -23,7 +23,7 @@ body{
     color:white ;
 }
  .btn-secondary{
-    width:89vh;
+    width:81vh;
     padding: 12px;
     cursor: pointer;
     background-color: black;
@@ -470,7 +470,7 @@ right: 34%;
 }
 .sec8 .message{
     height: 16vh;
-    width: 88vh;
+    width: 80vh;
     background-color: black;
     color: white;
     border: 2px white solid;
