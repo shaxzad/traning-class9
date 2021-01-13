@@ -291,7 +291,7 @@ button:hover{
     border-radius: 4px;
 }
 button:focus{
-    background-color: #000000;
+    background-color: white;
 }
 .sec10 .pricing{
     text-align: center;
