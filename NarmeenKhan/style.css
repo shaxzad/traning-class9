@@ -91,6 +91,7 @@ body{
     background-color: transparent;
     color: white;
     border-color: white;
+    margin: auto 595px;
 }
 .btn-secondary:hover {
     background-color: black;
@@ -107,7 +108,7 @@ body{
     opacity: 0.9;
     padding: 15px 30px;
     font-size: 13px;
-    margin: 0 auto;
+    margin: 100px 560px;
     display: block;
 }
 .btn-second:hover {
@@ -198,7 +199,6 @@ h5{
 .box1{
     border: none;
     display: flex;
-    /* padding: 0px 240px; */
 }
 
 .box1 div {
@@ -210,6 +210,13 @@ h5{
     width: 100%;
     height: 100%;
 }
+/*
+.box1 img:hover{
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}*/
+
+
 /*Section 3 ends here*/
 
 /*Section 4 Starts here*/
@@ -279,21 +286,22 @@ progress{
     background-color: blue;
     color: white;
 }
-.box1{
+.box2{
     border: none;
     display: flex;
-    /* padding: 0px 240px; */
+    text-align: center;
 }
 
-.box1 div {
+.box2 div {
     flex: 1;
     margin: 15px;
 }
 
-.box1 div img {
+.box2 div img {
     width: 100%;
     height: 100%;
 }
+
 /*Section 5 ends here*/
 
 /*Section 6 starts here*/
@@ -349,7 +357,6 @@ progress{
 }
 .article{
     border: none;
-    padding: 0px 240px;
 }
 /*Section 8 ends here*/
 
