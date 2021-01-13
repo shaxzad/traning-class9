@@ -1,0 +1,692 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    background-image: url(images/bi1.jpg);
+    background-size: 100% contain;
+    height: 100vh;
+    overflow: hidden;
+}
+.logo {
+    width: 140px;
+    height: auto;
+    padding: 5px 20px;
+}
+.nav-bar {
+    float: right;
+    margin-right: 20px;
+}
+.nav-bar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 30px;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: .4s;
+}
+.nav-bar ul li a.active,
+.nav-bar ul li a:hover {
+    background: red;
+    border-radius: 2px;
+}
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+.center h4 {
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 80px;
+}
+.center h2 {
+    color: cornsilk;
+    font-size: 60px;
+}
+.center p {
+    color: white;
+    font-family: cursive;
+}
+.center span {
+    color: red;
+}
+/* end */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec2 {
+    background-color: black;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.text {
+    width: 70%;
+    margin: 80px auto 40px auto;
+    text-align: center;
+}
+.text h1 {
+    margin-bottom: 50px;
+    position: relative;
+    color: blanchedalmond;
+}
+.text p {
+    font-size: 18px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.boxes {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    grid-gap: 0 15px;
+}
+.box {
+    border: 2px solid lightgrey;
+    position: relative;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.box .inner-box {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    color: lightgray;
+    transition: .3s;
+}
+.inner-box span {
+    background-color: black;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 60px;
+}
+.inner-box h3 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.box p {
+    font-size: 17px;
+    color: gray;
+    text-align: justify;
+    word-break: break-all;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align-last: center;
+    margin-top: 100px;
+    opacity: 0;
+}
+.box:hover {
+    border-color: crimson;
+}
+.box:hover .inner-box {
+    margin-top: -130px;
+    color: crimson;
+}
+.box:hover p {
+    opacity: 1;
+    margin-top: 0;
+    transition: .4s;
+    transition-delay: .3s;
+}
+
+/*  */
+
+.sec3 .heading {
+    margin: 90px 150px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.sec3 .para3 {
+    font-size: 25;
+    margin: 10px 150px;
+    width: 400px;
+    height: auto;
+}
+.sec3 .box {
+    margin: 60px 150px;
+    background: transparent;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.sec3 .pic {
+    width: 700px;
+    height: 300px;
+    padding: 5px 20px;
+    float: right;
+    margin-left: 80px;
+}
+.sec4 {
+    background-image: url(vehicles/bg1.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: 70px;
+    padding: 0;
+}
+.sec4 .heading {
+    font-size: 35px;
+    color: yellow;
+    padding-top: 165px;
+    padding-left: 120px;
+    text-transform: uppercase;
+}
+.sec4 span {
+    color: white;
+}
+.sec4 .para {
+    padding-top: 12px;
+    padding-left: 130px;
+    width: 400px;
+    height: auto;
+    color: rgb(240, 224, 224);
+    margin-top: 0px;
+    
+}
+.icons-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 550px;
+    font-size: 50px;
+    height: 40px;
+    padding-bottom: 5px;
+}
+.sec4 .names {
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    font-size: 26px;
+    gap: 60px;
+    padding-top: 38px;
+    text-decoration: overline;
+    color: white;
+    margin-top: 0px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.sec4 .box {
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 120px;
+}
+/* sec4 end */
+
+.sec5 .heading {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+.sec5 .para {
+    margin-top: 30px;
+    text-align: center;
+}
+.sec5 .boxes .box1 {
+    width: 250px;
+    height: 300px;
+    border-color: black;
+    border: 2px solid;
+    opacity: 30%;
+    
+}
+.sec5 .boxes .box2 {
+    width: 250px;
+    height: 300px;
+    border-color: black;
+    border: 2px solid;
+    opacity: 30%;
+}
+.sec5 .boxes .box3 {
+    width: 250px;
+    height: 300px;
+    border-color: black;
+    border: 2px solid;
+    opacity: 30%;
+}
+.sec5 .boxes .box4 {
+    width: 250px;
+    height: 300px;
+    border-color: black;
+    border: 2px solid;
+    opacity: 30%;
+}
+.sec5 .boxes {
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sec5 .box-heading {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.sec5 .dollar {
+    padding-left: 50px;
+}
+.sec5 .price {
+    padding-left: 70px;
+    font-size: 80px;
+}
+.sec5 .para-box {
+    text-align: center;
+}
+.sec5 .btn-box {
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    margin: 20px 70px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.sec5 .box1:hover {
+    background-color: gray;
+    opacity: 100%;
+}
+.sec5 .box2:hover {
+    background-color: gray;
+    opacity: 100%;
+}
+.sec5 .box3:hover {
+    background-color: gray;
+    opacity: 100%;
+}
+.sec5 .box4:hover {
+    background-color: gray;
+    opacity: 100%;
+}
+/* sec5 end */
+
+.sec6 {
+    background-color: lightgrey;
+    background-size: cover;
+}
+.sec6 .heading {
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: lighter;
+    opacity: 90%;
+}
+.sec6 .para {
+    margin-left: 350px;
+    width: 600px;
+    height: auto;
+    text-align: center;
+}
+.sec6 .inside-heading {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+    margin-left: 37%;
+    padding-top: 60px;
+    text-transform: uppercase;
+    
+}
+.sec6 li a {
+    color: black;
+    font-size: 20px;
+    transition: .4s;
+    text-decoration: none;
+}
+.sec6 li a.active,
+.sec6 li a:hover {
+    color: red;
+    border-radius: 2px;
+}
+.sec6 .boxes .box1 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-image: url(vehicles/cars.jpg);
+    background-size: cover;
+}
+.sec6 .boxes .box2 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-image: url(vehicles/ship.jpg);
+    background-size: cover;
+}
+.sec6 .boxes .box3 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-image: url(vehicles/taxis.jpg);
+    background-size: cover;
+}
+.sec6 .boxes .box4 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-image: url(vehicles/tuk.jpg);
+    background-size: cover;
+}
+.sec6 .boxes .box5 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-image: url(vehicles/txs.jpg);
+    background-size: cover;
+}
+.sec6 .boxes .box6 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid;
+    background-image: url(vehicles/txxs.jpg);
+    background-size: cover;
+}
+.sec6 .boxes {
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: 430px;
+    margin-top: 80px;
+    grid-gap: 0 5px;
+}
+.sec7 {
+    margin-top: 80px;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    padding: 60px;
+}
+.sec7 .heading {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.sec7 .box7 {
+    background-image: url(images/test.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-left: 230px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.sec7 .parag {
+    color: white;
+    width: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 190px;
+}
+/* sec7 end */
+
+.sec8 {
+    padding: 50px;
+}
+.sec8 .heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 80px;
+    font-size: 22px;
+}
+.sec8 .pgraph {
+    width: 600px;
+    text-align: center;
+    margin-left: 330px;
+    padding-top: 60px;
+}
+.sec8 .logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 150px;
+    margin-left: 90px;
+    padding-top: 180px;
+}
+.sec8 .box1 {
+    background-image: url(logos/l1.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.sec8 .box2 {
+    background-image: url(logos/l5.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.sec8 .box3 {
+    background-image: url(logos/l3.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.sec8 .box4 {
+    background-image: url(logos/l4.png);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+/* sec8 end */
+
+.sec9 {
+    background-image: url(images/sec9-bg.jpg);
+    background-size: cover;
+}
+.sec9 .heading {
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+.sec9 .pgraph {
+    width: 700px;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 300px;
+    padding-top: 50px;
+    font-family: cursive;
+}
+.sec9 .box1 {
+    width: 250px;
+    height: 300px;
+    background-image: url(vehicles/dr.jpg);
+    background-size: cover;
+}
+.sec9 .box2 {
+    width: 250px;
+    height: 300px;
+    background-image: url(vehicles/dr2.jpg);
+    background-size: cover;
+}
+.sec9 .box3 {
+    width: 250px;
+    height: 300px;
+    background-image: url(vehicles/dr3.jpg);
+    background-size: cover;
+}
+.sec9 .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 250px;
+    width: 1200px;
+    padding-top: 140px;
+}
+.sec9 .info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 980px;
+    height: 190px;
+    padding-top: 30px;
+    color: bisque;
+    margin-left: 230px;
+}
+.sec9 .info1 {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+.sec9 .info2 {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+.sec9 .info3 {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+.sec9 .info .icons {
+    padding: 20px;
+}
+/* sec9 end */
+
+.sec10 {
+    background-image: url(images/sec10-bg.jpg);
+    background-size: cover;
+    height: 650px;
+}
+.sec10 .heading {
+    padding-top: 100px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sec10 .icon {
+    text-align: center;
+    padding-top: 30px;
+}
+.sec10 .form-outer {
+    width: 400px;
+    background-attachment: scroll;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sec10 .form-outer input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: lightgray;
+    border: 2px solid;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.sec10 .button {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 4px;
+    text-transform: capitalize;
+    padding: 6px 0px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: lightgray;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.sec10 .button:hover {
+    background-color: red;
+}
+/* sec10 end */
+
+.sec11 .heading {
+    padding-top: 80px;
+    display: inline-flex;
+    gap: 300px;
+    font-size: 25px;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+.sec11 .pgraph {
+    width: 300px;
+    height: auto;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+.sec11 .pgraph .p2 {
+    padding-top: 20px;
+}
+.sec11 .butn {
+    width: 200px;
+    height: auto;
+    border: 2px solid;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.sec11 .butn:hover {
+    background-color: red;
+}
+.sec11 .posts {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.sec11 .posts .lp1 {
+    width: 100px;
+    height: 130px;
+    background-image: url(images/lp1.jpg);
+    background-size: cover;
+}
+.sec11 .posts .lp2 {
+    width: 100px;
+    height: 130px;
+    background-image: url(images/lp2.jpg);
+    background-size: cover;
+}
+.sec11 .posts .lp3 {
+    width: 100px;
+    height: 130px;
+    background-image: url(images/lp3.jpg);
+    background-size: cover;
+}
