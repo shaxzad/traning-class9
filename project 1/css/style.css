@@ -7,7 +7,7 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(54, 54, 54);
 }
-/* first section classes start here */
+/* 1st section classes start here */
 .container{
     background-image: url(../images/maxwell-ridgeway-TzQuh8vQaZ0-unsplash.jpg);
     background-position:center;
@@ -42,7 +42,7 @@ li{
 .navbar a{
     border: 1px solid rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     text-decoration: none;
     list-style: none;
     padding: 5px;
@@ -186,9 +186,9 @@ label,  #file{
     letter-spacing: 20px;
     margin-top: 10%;
 }
-.sec4-heading-design{
-    width: 270px;
-    margin-left: 0%;
+.sec4 .sec4-heading-design{
+    width: 380px;
+    margin-left:36.5%;
 }
 .sec4 p{
     text-align: center;
@@ -235,43 +235,199 @@ label,  #file{
     cursor: pointer;
 }
 /* ----4th section ends here */
+/* ----5th section ends here */
+
 .sec5{
     background-image: url(../images/conor-luddy-IVaKksEZmZA-unsplash.jpg);
     background-color: white;
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 7%;
 }
-.sec5 .sub-img h3{
-    color: rgb(255, 255, 255);
-    margin-top: 20%;
-}
-.sec5 .sub-img input{
-    margin-left: 42%;
+.sec5 .sub-img h2{
+    color: white;
+    padding-top: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sec5 .sub-img p{
     color: white;
-    font-size:
+    margin-bottom: 1%;
 }
-.sec5 .sub-img .btn{
+.sec5 .sub-img input{
+    margin-left: 25%;
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+.sec5 .btn{
     margin-left: 46%;
+    padding-bottom: 10%;
 }
-.sec5 .sub-img .btn button{
+.sec5 .btn button{
     border-radius: 0px;
     border: 1px solid;
     padding: 10px;
-    margin-top: 2%;
-    color: black;
-    background-color: white;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
     text-transform: uppercase;
 }
-.sec5 .sub-img .btn button:hover{
-background-color: rgb(29, 27, 27);
-color: white;
+.sec5 .btn button:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 }
-.sec5 .sub-img .btn button:focus{
+.sec5 .btn button:focus{
 cursor: pointer;
 }
+/* ----5th section ends here */
+
+/* ----6th section starts here */
+.sec6{
+    background-color: white;
+    margin-bottom: 10%;
+}
+.sec6 h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 20px;
+}
+.sec6 .sec6-heading-design{
+    width: 480px;
+    margin-left:33.5%;
+}
+.sec6 .posts{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.sec6 .posts img{
+    width: 250px;
+}
+.sec6 .posts h4{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+    color: rgb(51, 48, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec6 .posts hr{
+    width: 50px;
+    margin: 1% 0%;
+}
+.sec6 .posts p{
+    text-align: start;
+    padding-top: 20px;
+}
+.sec6 .posts a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec6 .posts a:hover{
+    cursor: pointer;
+}
+/* ----6th section ends here */
+
+/* ----7th section starts here */
+.sec7{
+    background-color: rgb(245, 240, 240);
+    margin-top: 5% 15%;
+    padding: 5% 17%;
+}
+.sec7-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.first-box .fb-grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: -15px;
+}
+.first-box .fb-grid h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-top: 36px;
+    margin-left: 20px;
+}
+.first-box{
+    width: 291px;
+}
+.first-box img{
+    width: 100px;
+}
+.first-box p{
+    text-align: start;
+}
+.sec7 .btn button{
+    border-radius: 0px;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 5%;
+    color: rgb(47, 46, 46);
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.sec7 .btn button:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+.sec7 .btn button:focus{
+cursor: pointer;
+}
+.sec7 .second-box{
+    font-family: sans-serif;
+}
+.second-box .box2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 3%;
+}
+.second-box .box2 p{
+    text-align: start;
+    margin: 0%;
+}
+.sec7 .third-box .tb-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.third-box h2{
+    margin-left: 4.5%;
+    font-family: sans-serif;
+}
+.sec7 .third-box .tb-grid img{
+    width: 90px;
+}
+.sec7 .third-box .imgs{
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+/* ----7th section ends here */
 
 /* foooter classes starts here */
+
+.sec8{
+    background-color: black;
+}
+.sec8 .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sec8 p{
+    color: white;
+    margin: 5%;
+}
+.sec8 i{
+    color: white;
+    margin: 5% 1%;
+}
 /*------------footer classes end here---------------*/
