@@ -25,13 +25,25 @@
 	margin-left: 100px;
 	margin-top:50px;
 }
-.butnsec{
+.butnsec{ 
+	display: grid;
+	grid-template-rows: repeat(5 ,1fr);
 	height: 15vh;
-	background-color: red
-	}
-.sec2{
+	width: 100%;
+
+	background-color: rgb(211, 14, 14)
 	
+	}
+button:hover{
+	background-color:rgb(104, 104, 226);
+	border: solid 1px black;
+	border-radius: 4px;
+	
+}
+
+.sec2{
 	padding-top: 10px;
+	overflow: cover;
 	border: currentColor;
 	background-color: white;
 	padding-right: 10px;
@@ -76,7 +88,8 @@
 .sec4{
 color: white;
 height: 20px;
-font-size: 40px;
+font-size: 50px;
+text-align: center;
 }
 
 .sec5{
