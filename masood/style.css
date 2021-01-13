@@ -224,12 +224,6 @@ top: 182.5%;
     background-size: 100% 100%;
   position: relative;
 }
-.fa-star{
- font-size: 2rem;
- color: aliceblue;   
- margin-left: 19%;
- padding-bottom: 12px;
-}
 .sec4-grid{
     display: grid;
     grid-template-columns: 60% 10% 10% 10%;
