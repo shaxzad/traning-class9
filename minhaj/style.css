@@ -666,27 +666,3 @@ body {
 .sec11 .butn:hover {
     background-color: red;
 }
-.sec11 .posts {
-    display: inline-block;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-.sec11 .posts .lp1 {
-    width: 100px;
-    height: 130px;
-    background-image: url(images/lp1.jpg);
-    background-size: cover;
-}
-.sec11 .posts .lp2 {
-    width: 100px;
-    height: 130px;
-    background-image: url(images/lp2.jpg);
-    background-size: cover;
-}
-.sec11 .posts .lp3 {
-    width: 100px;
-    height: 130px;
-    background-image: url(images/lp3.jpg);
-    background-size: cover;
-}
