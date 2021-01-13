@@ -2,17 +2,26 @@ body {
     margin: 40px;
 
 }
+.sec0 {
+    background-color: rgb(240, 224, 224);
+   border: rgb(231, 226, 226);
+}
 .sec1 {
     background-image: url(./images/1.jpg);
-    height: 644px;
+    height: 706px;
     padding-left: 80px;
     color: white;
 }
 .sec1 h1 {
-    font-size:40px;
+    font-size:80px;
+    display: inline;
+}
+.sec1 h2 {
+    font-size: 60px;
+    display: inline;
 }
 .sec1 .div2 {
-background-color: steelblue;
+background-color:  rgb(87 178 251);
 width: 90px;
 padding-left: 20px;
 float: right;
@@ -28,52 +37,67 @@ float: right;
     .btn:hover{
         background-color: rgb(243, 216, 61);
     }
+    .sec3 {
+        margin: 4px;
+        padding-left: 80px;
+        padding-bottom: 100px;
+    }
     .sec2 .div1 {
-        padding-top: 60px;
+        padding-bottom: 75px;
         padding-left: 80px;
         color: rgb(57, 115, 221);
+        padding-top: 110px;
     }
     .sec3 .box1{
-        padding-left: 90px;
+        padding-left: 30px;
         padding-top: 30px;
         border: 3px;
         border-radius: 5px;
-        background-color: rgb(228, 220, 220);
-        width: 128px;
-        font-size: 13px;
+        background-color: white;
+        width: 335px;
+        font-size: 15px;
+        height: 200px;
+        font-size: 20px;
     }
     .sec3 .box2{
+        padding-left: 30px;
         padding-top: 30px;
         border: 3px;
         border-radius: 5px;
-        background-color: rgb(228, 220, 220);
-        width: 194px;
-        font-size: 13px;
+        background-color: white;
+        font-size: 15px;
+       width: 335px;
+       font-size: 20px;
     }
     .sec3 .box3{
+        padding-left: 30px;
         padding-top: 30px;
         border: 3px;
         border-radius: 5px;
-        background-color: rgb(228, 220, 220);
+        background-color:  white;
         width: 194px;
-        font-size: 13px;   
+        font-size: 15px; 
+        width: 335px; 
+        font-size: 20px; 
     }
     .sec3 {
         display: grid;
-        grid-template-columns: 40% 40% 40%;
+        grid-template-columns: 33% 33% 33%;
     }
-    .sec4{
-        padding-left: 350px;
-        padding-top: 100px;
+    .sec5 .sec4{
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 25px;
     }
     .sec5{
-       padding-left: 350px;
+        background-image: url(./images/g.jpg);
+       padding-left: 600px;
 padding-top: 30px;
 background-color: rgb(228, 218, 218);
+color: white;
     }
     .sec6{
-        background-color: rgb(228, 218, 218);
-        padding-left: 350px;
+        padding-left: 0px;
         padding-top: 30px;
     }
     .sec6 .btn2 {
@@ -95,18 +119,61 @@ background-color: rgb(228, 218, 218);
     color: white;
     padding-bottom: 50px;
     padding-top: 50px;
+    font-size: 25px;
+    padding-left: 80px;
     }
     .sec8{
-        padding-top: 50px;
+        padding-top: 90px;
+        padding-left: 75px;
+        font-size: 25px;
+        padding-bottom: 90px;
+        background-color:whitesmoke;
     }
     .sec9 {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         background-color:whitesmoke;
-        padding-bottom: 70px;
+        padding-bottom: 100px;
+        padding-top:80px ;
     }
-    .sec10 {
+    .sec10 .div1  
+    {
+        padding-left: 30px;
+        background-color: white;
+        color:rgb(37, 146, 248) ;
         padding-top: 50px;
+    }
+.sec10{
+    padding-top: 50px;
+}
+    .sec11 {
         display: grid;
         grid-template-columns: 35% 30% 35%;
+        padding-top: 80px;
+        background-color: white;
     }
+    .sec12 .btn3{
+        border-radius: 20px;
+        color: black;
+        padding: 8px 20px;
+        border-color: rgb(93, 160, 238);
+    }
+   .btn3:hover {
+    background-color: rgb(243, 216, 61);   
+   }
+   .sec12{
+        padding-top: 50px;
+        background-color: white;
+        padding-bottom: 80px;
+   }
+   .sec13 .div1 {
+       padding-left: 80px;
+       color: rgb(73, 155, 223);
+       padding-top: 50px;
+   }
+  .sec14 {
+      padding-top: 50px;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      font-size: 18px;
+  }
