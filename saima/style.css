@@ -3,6 +3,7 @@ body{
     margin: 0px 0px;
     background-color: white;
     overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .container-fluid{
     margin: 0px 0px;
@@ -21,11 +22,18 @@ body{
     width: 12rem;
     height: 2rem;
     text-transform: capitalize;
-}
-.btn-primary{
     background-color: crimson;
     color:white;
     border: crimson;
+}
+.btn-primary{
+   margin: 0% 5%;
+}
+.btn-primary i{
+    font-size: 25px;
+}
+ .btn-secondary{
+     margin-left: 25%;
 }
 .btn-primary:hover{
     cursor: pointer;
@@ -87,7 +95,6 @@ body{
     margin-left: 4rem;
     font-size: 45px;
     padding-top: 10rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .division p{
     text-align: left;
@@ -112,12 +119,11 @@ body{
 #sec2{
     background-color:white;
     width: 100%;
-    /* height: 100vh; */
 }
 .sec2-heading h1{
      margin: 0% 5%;
      text-transform: capitalize; 
-     font-size: 40px;
+     font-size: 35px;
 } 
 .division1 img{
     width: 400px;
@@ -140,7 +146,7 @@ body{
 }
 #sec2 .box1{
     border: none;
-    width:350px;
+    width:370px;
     height: 150px;
     text-transform: capitalize;
     padding: 2%;
@@ -151,6 +157,11 @@ body{
     height: 150px;
     text-transform: capitalize;
     padding: 2%;
+}
+#sec2 .btn .btn-primary{
+    margin: 0% 8%;
+    padding: 3px;
+    height: 4rem;
 }
 #sec2 .box1 p{
     font-size: 19px;
@@ -265,18 +276,15 @@ body{
     margin: 4px -8px;
 }
 .first-box{
- border: none;
- background-color: whitesmoke;
- box-shadow: 5px;
- width: 500px;
- height: 460px;
- box-sizing: border-box;
- 
+     border: none;
+     background-color: whitesmoke;
+     width: 500px;
+     height: 460px;
+     box-sizing: border-box;
 }
 .second-box{
     background-color: whitesmoke;
     border: none;
-    box-shadow: 5px;
     width: 500px;
     height: 460px;
     box-sizing: border-box;
@@ -291,42 +299,42 @@ body{
 
 }
 .div-boxes .box1{
-    border: 1px solid black;
+    border: none;
     background-color:lightgray;
     width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box2{
-    border: 1px solid black;
+    border: none;
     background-color:lightgray;
     width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box3{
-    border: 1px solid black;
+    border: none;
     background-color:lightgray;
     width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box4{
-    border: 1px solid black;
+    border: none;
     background-color: lightgray;
     width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box5{
-    border: 1px solid black;
+    border: none;
     background-color: lightgray;
     width: 350px;
     height: 230px;
     text-align: center;
 }
 .div-boxes .box6{
-    border: 1px solid black;
+    border: none;
     background-color:lightgray;
     width: 350px;
     height: 230px;
@@ -343,52 +351,52 @@ body{
 .inside-box1{
     border: 1px solid crimson;
     border-radius: 5rem;
-    margin: 8px 120px;
+    margin: 25px 150px;
     width: 50px;
     height: 40px;
     padding-top: 12px;
     font-size: 25px;
 }
 .inside-box2{
-    border: 1px solid red;
+    border: 1px solid crimson;
     border-radius: 5rem;
-    margin: 8px 120px;
+    margin: 25px 150px;
     width: 50px;
     height: 40px;
     padding-top: 12px;
     font-size: 25px;
 }
 .inside-box3{
-    border: 1px solid red;
+    border: 1px solid crimson;
     border-radius: 5rem;
-    margin: 8px 120px;
+    margin: 25px 150px;
     width: 50px;
     height: 40px;
     padding-top: 12px;
     font-size: 25px;
 }
 .inside-box4{
-    border: 1px solid red;
+    border: 1px solid crimson;
     border-radius: 5rem;
-    margin: 8px 120px;
+    margin: 25px 150px;
     width: 50px;
     height: 40px;
     padding-top: 12px;
     font-size: 25px;
 }
 .inside-box5{
-    border: 1px solid red;
+    border: 1px solid crimson;
     border-radius: 5rem;
-    margin: 8px 120px;
+    margin: 25px 150px;
     width: 50px;
     height: 40px;
     padding-top: 12px;
     font-size: 25px;
 }
 .inside-box6{
-    border: 1px solid red;
+    border: 1px solid crimson;
     border-radius: 5rem;
-    margin: 8px 120px;
+    margin: 25px 150px;
     width: 50px;
     height: 40px;
     padding-top: 12px;
@@ -396,7 +404,7 @@ body{
 }
 #sec4 .para1 h1{
     margin: 5px 5%;
-    font-size: 30px;
+    font-size: 35px;
 }
 #sec4 .para1 p{
     padding-left: 5%;  
@@ -404,7 +412,6 @@ body{
 /* section four end here */
 /* section five start here */
 #sec5{
-    background-color:white;
     width:100%;
     height: 100%;
 }
@@ -417,7 +424,7 @@ body{
 }
 #sec5 .para2 h1{
     margin: 5px 5%;
-    font-size: 30px;
+    font-size: 35px;
     }
 #sec5 .para2 p{
        padding-left: 4%;
@@ -432,7 +439,6 @@ body{
     width: 350px;
     height: 260px;
 }
-
 #sec5 .main-div p{
     padding-left: 2%;
     text-transform: capitalize;
@@ -441,7 +447,7 @@ body{
     float: right;
     margin: 0px 20px;
     margin-top: -13%;
-    color: red;
+    color: crimson;
 }
 /* section five end here */
 /* section six start here */
@@ -453,10 +459,10 @@ body{
 #sec6 .left-side{
     width: 450px;
     height: 250px;
-    background-color: lightgray;
+    background-color: lightgrey;
     border: none;
     margin: 0% 8%;
-    padding: 2% 3%;
+    padding: 2% 5%;
 }
 #sec6 .right-side{
     width: 450px;
@@ -464,7 +470,7 @@ body{
     background-color: lightgray;
     border: none;
     margin: 0% 5%;
-    padding: 2% 3%;
+    padding: 2% 5%;
 }
 #sec6 .sides{
     display: grid;
@@ -482,37 +488,37 @@ body{
        padding-left: 11%;
     }
 #sec6 .left-side img{
-    width: 50px;
-    height: 50px;
-    border-radius: 2rem;
-    border: 2px double red;
-    margin-left:-3% ;
+    width: 70px;
+    height: 70px;
+    border-radius: 360px;
+    border: 2px double crimson;
+    margin-left:-5% ;
     position: absolute;
     margin-top:7% ;
     
 }
 #sec6 .right-side img {
-    width: 50px;
-    height: 50px;
-    border-radius: 2rem;
-    border: 2px double red;
-    margin-left:-3% ;
+    width: 70px;
+    height: 70px;
+    border-radius: 360px;
+    border: 2px double crimson;
+    margin-left:-5% ;
     position: absolute;
     margin-top:7% ;   
 }
 .left-side i{
     font-size: 2rem;
-    color: red;
-    margin: 20px 8rem;
+    color: crimson;
+    margin: 20px 25px;
 }
 .right-side i{
     font-size: 2rem;
-    color: red;
-    margin: 20px 8rem;
+    color: crimson;
+    margin: 20px 25px;
 }
 .left-side p{
     font-size: 18px;
-    padding-left: 20px; 
+    padding-left:20px; 
 }
 .right-side p{
     font-size: 18px;
@@ -522,48 +528,48 @@ body{
 /* section seven start here */
 #sec7{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
- .heading h1{
+ .heading h2{
     font-size: 35px;
-    margin-left: 12%;
+    margin-left: 5%;
     text-transform: capitalize;
 }
 .heading p{
-    margin-left: 12%;
+    margin-left: 0px;
     text-transform: capitalize;
 }
 .image1 img {
-    width: 450px;
+    width: 500px;
     height: 200px;
-    margin-left: 35%;   
+    margin-left: 10%;   
 }
 .image2 img {
-    width: 450px;
+    width: 500px;
     height: 200px;
-    margin-left: 10%;   
+    margin-left: 5%;   
 }
 .image3 img {
-    width: 450px;
-    height: 200px;
-    margin-left: 35%;   
-}
-.image4 img {
-    width: 450px;
+    width: 500px;
     height: 200px;
     margin-left: 10%;   
+}
+.image4 img {
+    width: 500px;
+    height: 200px;
+    margin-left: 5%;   
 }
 .images {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-column-gap: 10px;
+    grid-column-gap: 2%;
     grid-row-gap: 13rem;
 }
 .image1 .para1{
     border: none;
-    width: 370px;
+    width: 400px;
     height: 220px;
-    margin: -50px 20%;
+    margin: -50px 8%;
     background-color: whitesmoke;
     position: absolute;
     border-radius: 5%;
@@ -580,9 +586,9 @@ body{
 }
 .image2 .para2{
     border: none;
-    width: 370px;
+    width: 400px;
     height: 220px;
-    margin: -50px 100px;
+    margin: -50px 6%;
     background-color: whitesmoke;
     position: absolute;
     border-radius: 5%;
@@ -599,9 +605,9 @@ body{
 }
 .image3 .para3{
     border: none;
-    width: 370px;
+    width: 400px;
     height: 220px;
-    margin: -50px 20%;
+    margin: -50px 8%;
     background-color: whitesmoke;
     position: absolute;
     border-radius: 5%;
@@ -618,9 +624,9 @@ body{
 }
  .image4 .para4{
     border: none;
-    width: 370px;
+    width: 400px;
     height: 220px;
-    margin: -50px 100px;
+    margin: -50px 6%;
     background-color: whitesmoke;
     position: absolute;
     border-radius: 5%;
@@ -628,7 +634,7 @@ body{
 .image4 .para4 h4{
     text-align: left;
     text-transform: capitalize;
-    padding: 0px 20px;
+    padding: 0px 24px;
 }
 .image4 .para4 p{
     text-align: left;
@@ -640,7 +646,77 @@ body{
 #sec8{
     width: 100%;
     height: 100vh;
+    padding-top: 180px;
 }
+.form-one{
+    width: 550px;
+    height: 500px;
+    background-color: rgb(231, 237, 243);
+    margin-left: 10%;
+}
+.para8 h2{
+    margin: 2% 5%;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.para8 p{
+    margin: 2% 0px;
+}
+.form-one input{
+    padding:10px;
+    width: 29rem;
+    background-color: rgb(231, 237, 243) ;
+    margin: 20px 30px;
+    border: 1px solid rgb(197, 203, 209);
+    border-radius:4px ;
+}
+.form-one textarea{
+    width: 30rem;
+    height: 10rem;
+    margin: 20px 30px;
+    background-color: rgb(231, 237, 243) ;
+    border: 1px solid rgb(197, 203, 209) ;
+    border-radius: 4px;
+}
+.btn.btn-parimary button{
+    margin: 20px 30px;
+
+}
+.last-para{
+    width: 570px;
+    height: 500px;
+    margin-left:5px ;
+}
+.last-para i{
+    color: crimson;
+    padding: 2%;
+}
+.last-division{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
+}
+.last-para h3{
+    margin: 0% 14%;
+    font-size: 20px;
+}
+.last-para h5{
+    margin:0% 15%;
+    font-size: 16px;
+    text-decoration: none;
+}
+footer{
+    width: 110%;
+    height: 4rem;
+    background-color: rgb(213, 223, 235);
+    margin: 0px;
+}
+footer p{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+/* section eight end here */
 
 
 
