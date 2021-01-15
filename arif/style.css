@@ -1,0 +1,521 @@
+body{
+    background-color:white;
+    margin: 0%;
+
+}
+/* sec 1 */
+.sec-1{
+    margin: 0%;
+    width: 100%;
+    height: 660px;
+    color: white;
+    background-size:100%;
+    background-image: url(images/1201529.jpg);
+    }
+
+.heading-1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 15px;
+    text-transform: capitalize;
+    } 
+    
+.para-1{
+    height: 10%;
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-left:1%;
+    }
+
+/* helper class */
+.btn{
+    padding: 1% 4%;
+    left: 2%;
+    margin-top: 15%;
+    position: absolute;
+ }
+ .btn-primery{
+     margin-top: 11rem;
+     padding: 2px;
+ }
+ :hover.btn-primery{
+     background-color: blue;
+     text-transform: uppercase;
+ }
+ :hover.btn{
+     background-color: blue;
+     text-transform: uppercase;
+     /* */ 
+ }
+.div-3{
+    
+    left: 66%;
+    margin-top: 40%;
+    position: absolute;
+}
+.check-1{
+margin-left: 3px 0px;
+}
+
+.home{
+    margin-left:68% ;
+color: white;
+text-decoration: none;
+
+}
+:hover.home{
+    background-color: yellow;
+}
+.our-kit{
+    color: white;
+    padding-left: 14px;
+    text-decoration: none;
+}
+:hover.our-kit{
+    background-color: yellow;
+}
+.team{
+    color: white;
+     padding-left: 12px;
+    text-decoration: none;
+}
+:hover.team{
+    background-color: yellow;
+}
+.heading-2{
+    margin-top: 10%;
+
+}
+.sel1{
+    left: 68%;
+    margin-top: 37%;
+    position: absolute;
+    border-style:dashed;
+}
+.inpt-1{
+    margin-left:73%;
+    margin-top: 37.3%;
+}
+/* section-2 starts from here */
+.sec-2{
+    background-size: 100;
+    background-color: white;
+    margin-top: 10%;
+    display: grid;
+    overflow: hidden;
+    margin-left:180px;  
+    grid-template-columns: 15% 15% 15% 20%;
+    grid-column-gap:30px ;
+}
+.fas-1{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}
+.football{
+    font-size: 1rem;
+}
+.trofee{
+    font-size: 1rem;
+
+}
+.reward{
+    font-size: 1rem;
+}
+.sketing{
+    font-size: 1rem
+}
+.fas-2{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}
+ .box-2{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 51% 81%, 0 100%,0% 81%);
+    width: 80px;
+    height: 160px;
+    background-color: darkgray;
+    
+}
+.box-3{
+    /* clip-path:  ; */
+    width: 80px;
+    height: 160px;
+    background-color: darkgray;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 51% 81%, 0 100%,0% 81%);
+}
+.box-4{
+    width: 80px;
+    height: 160px;
+    background-color: darkgray;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 51% 81%, 0 100%,0% 81%);
+}
+.box-5{
+    width: 80px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 51% 81%, 0 100%,0% 81%);
+    height: 160px;
+    background-color: darkgray;
+    }
+    /* section 3 starts from here */
+    .sec-3{margin: 0%;
+        background-size: 100%;
+        overflow: hidden;
+        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 51% 81%, 0 100%,0% 81%); */
+    }
+    .heading{
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+        padding-top:50px ;
+        text-transform: uppercase;
+    }
+
+    .para{
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 200;
+        text-decoration: underline;
+       
+        padding-top:0px ;
+    }
+     /* section 4 */
+
+     .sec-4{
+         /* margin-left: 40px; */
+         margin-top: 0%;
+         display: grid;
+         grid-gap: 7ch;
+         overflow: hidden;
+         grid-template-columns: 30% 24% 40%;
+     }
+     .box-a{
+         margin-top: 20px;
+         margin-left: 50px;
+         background-color: aquamarine;
+         width: 200px;
+         border-style: solid;
+         height: 250px;
+         background-size: 100% 100%;
+         background-image: url(images/images\ \(34\).jpg);
+     }
+
+     .box-b{
+        margin-top: 20px;
+        background-color: aquamarine;
+        width: 200px;
+        border-style: solid;
+        background-image: url(images/niymar.JPG);
+        height: 250px;
+        background-size: 100% 100% ;
+    }
+    .box-c{
+        margin-top: 20px;
+        background-image: url(images/images\ \(27\).jpg);
+        background-color: aquamarine;
+        width: 200px;
+        background-size: 100% 100% ;
+        border-style: solid;
+        margin-right: 0px;
+        height: 250px;
+    }
+   .heading-3{
+    color: black;
+    padding-top: 0px;
+    margin-left: 45px; 
+    margin-top: -45px;
+}
+ 
+.para-A{
+color: black;
+display: grid;
+grid-template-columns:10%  30%  20%;
+text-shadow: 8px;
+}
+.heading-4{
+    color: black;
+    padding-top: 0px;
+    margin-left: 10px; 
+    margin-top: -45px;
+} 
+/* /* se *ction 5 starts from here/ */
+.sec-5{
+background-image: url(images/1231633.jpg);
+ width: 100%;
+height: 700px;
+background-color: black;
+background-size: 100% 100%;
+margin-top: 60PX;
+text-align: center;
+text-decoration:underline;
+font-weight: 700;
+overflow: hidden;
+
+}
+.div-a{
+    display: grid;
+    grid-template-columns:  25%  25%  25%  25%;
+    grid-gap: 0ch;
+    margin-left: 35px;
+    margin-top: 10rem;
+}
+
+.box-11{
+    width: 150px;
+    background-size: 100% 100%;
+    background-image:url(images/images\ \(14\).jpg);
+    height: 250px;
+    color: black;
+    background-color: wheat;
+    /* padding-top:20px ; */
+}
+.box-12{
+    width: 150px;
+    background-image: url(images/images\ \(14\).jpg);
+    height: 250px;
+    color: black;
+    background-size: 100% 100%;
+    background-color: wheat;
+}
+.box-13{
+    width: 150px;
+    background-image: url(images/images\ \(14\).jpg);
+    height: 250px;
+    color: black;
+    background-color: wheat;
+    background-size: 100% 100%;
+}
+.box-14{
+    width: 150px;
+    background-image: url(images/images\ \(14\).jpg);
+    height: 250px;
+    color: black;
+    background-size: 100% 100%;
+    background-color: wheat;
+    /* padding-top: -3px; */
+}
+.input-a{
+    padding:2px;
+    width: 100px;
+    margin-top: 11rem;
+    /* background-color: aqua; */
+    
+}
+.fas-3{
+   margin-top:  -1.8%;
+   margin-left: 6%;
+    position: absolute;
+}
+
+.fas-3{
+    margin-top:  -1.8%;
+    margin-left: 6%;
+     position: absolute;
+ }
+ 
+.fas-3{
+    margin-top:  -1.8%;
+    margin-left: 6%;
+     position: absolute;
+ }
+
+ .fas-3{
+    margin-top:  -1.8%;
+    margin-left: 6%;
+     position: absolute;
+ }
+ .price{
+     position: absolute;
+     margin-top: 20%;
+     margin-left: 7%;
+ }
+ .price{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+.price{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+.price{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+/* section 6 starts from here*/
+.sec-6{
+    margin: auto;
+    overflow: hidden;
+}
+.div-b{
+    text-align: center;
+    color: black;
+    /* text-decoration: underline; */
+    padding-top: 10%;
+}
+.div-c{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0ch;
+    margin-left: 40px;
+    /* color: white; */
+
+
+}
+.box-15{
+    width: 150px;
+    background-color: gray;
+    height: 250px;
+    margin-top: 50px;
+    border-style: double;
+    /* color: white; */
+}
+.box-16{
+    width: 150px;
+    background-color: gray;
+    height: 250px;
+    margin-top: 50px;
+    border-style: double;
+}
+.box-17{
+    width: 150px;
+    background-color: gray;
+    height: 250px;
+    margin-top: 50px;
+    border-style: double;
+}
+.box-18{
+    width: 150px;
+    background-color: gray;
+    height: 250px;
+    margin-top: 50px;
+    border-style: double;
+}
+.box-child{
+    color: white;
+    height: 130px;
+    margin-left: 10px;
+    background-image: url(images/messi.jpg);
+    background-size:150px 150px;
+    width: 130px;
+    background-color: wheat;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+    /* clip-path: polygon(0 0, 36% 0, 100% 100%, 51% 81%, 0 100%, 0% 80%); */
+}
+
+.messi{
+    color: black;
+    /* padding-top: 9rem; */
+    font-size: 2rem;
+    text-decoration: solid;
+    /* z-index: 2; */
+    text-align: center;
+}
+
+.messi-1{
+    color: black;
+    padding-top: 8rem;
+    font-size: 2rem;
+    text-decoration: solid;
+    /* z-index: 2; */
+    text-align: center;
+    z-index: 3px;
+}
+
+.messi-2{
+    color: black;
+    /* padding-top: 9rem; */
+    font-size: 2rem;
+    text-decoration: solid;
+    /* z-index: 2; */
+    text-align: center;
+}
+
+.messi-3{
+    color: black;
+    /* padding-top: 9rem; */
+    font-size: 2rem;
+    text-decoration: solid;
+    /* z-index: 2; */
+    text-align: center;
+}
+.messi::after{
+    content: "6";
+    font-size: 3rem;
+}
+
+/* section 7 starts from here */
+.sec {
+margin: auto;
+overflow: hidden;
+}
+.div-d{
+    color: black;
+    margin-top:20px;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 1rem;
+    margin-top: 40px;
+    text-shadow: 8px black;
+    text-decoration: underline;
+}
+
+.had-1::before{
+     content: "MEET";
+    color: black;
+    font-weight: 400;
+
+}
+.had-1::after{
+    content: "PARTNERS";
+    color: black;
+    font-weight: 400;
+}
+/* <!-- last section starts from here --> */
+.sec{
+    margin-top:auto;
+    /* height: 80px; */
+    overflow: hidden;
+}
+.box-1{
+  
+   
+    display: grid;
+    grid-template-columns: 20% 20% 20% 25%;
+    margin-left: 10rem;
+}
+:hover.box{
+ transform:1.2;
+  background-color: rgb(185, 185, 204);
+}
+
+.box{
+    height: 150px;
+    margin-top: 50px;
+    width: 80px;
+    background-color: gray;
+    margin-left: 40px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 51% 81%, 0 100%,0% 81%);
+}
+.facebook{
+    margin: 50px 28px;
+    font-size: 1.6rem;
+    color: blue;
+}
+
+
+.sec-8{
+    margin: auto;
+}
+.footer{
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    padding: 18px;
+    text-align: center;
+}
