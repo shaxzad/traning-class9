@@ -1,0 +1,22 @@
+
+.point{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: crimson;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.container .row .col{
+margin: 5px;
+height: 150px;
+}
+footer{
+	
+	text-align: center;
+	text-transform: uppercase;
+	background-color: crimson;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
