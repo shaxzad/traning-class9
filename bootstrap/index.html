@@ -11,7 +11,7 @@
     <header>
       <div class="container-fluid reset-container">
         <div class="row">
-          <div class="col">
+          <div class="col m-5">
             <!-- Added navbar component -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" href="#">Navbar</a>
@@ -160,44 +160,69 @@
     </section>
     <!-- Slider Seaction END here -->
     <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col bg-danger">
+              <h1>COL 1</h1>
+          </div>
+          <div class="col bg-dark">
+              <h1>COL 1</h1>
+          </div>
+          <div class="col bg-info">
+              <h1>COL 1</h1>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col bg-secondary">
+          <h3>Col 3</h3>
+        </div>
+        <div class="col bg-danger">
+          <h3>Col 3</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-4 mr-5  bg-success">
+          <h3>Col 3</h3>
+        </div>
+        <div class="col-xs-6 col-md-6  mr-5 bg-warning">
+          <h3>Col 3</h3>
+        </div>
+        <div class="col col-xs-12 bg-light">
+          <h3>Col 3</h3>
+        </div>
+      </div>
+    </section>
+    <section>
       <div class="container">
         <div class="row">
-          <div class="col">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                  placeholder="Password"
-                />
-              </div>
-              <div class="form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label class="form-check-label" for="exampleCheck1"
-                  >Check me out</label
-                >
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+          <div class="col-4 bg-dark">
+            <span>Four columns</span>
+          </div>
+          <div class="col-md-4 offset-md-4 bg-primary">
+            <span>Four columns</span>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-sm-5 col-md-6 bg-primary">.col-sm-5 .col-md-6</div>
+          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 bg-danger">.col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-5 col-lg-6 bg-dark">.col-sm-6 .col-md-5 .col-lg-6</div>
+          <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 bg-light">.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 bg-primary">
+            <h1>Nested columns</h1>
+            <div class="row" style="height: 200px">
+                <div class="col-6 bg-dark justify-content-md-center d-flex align-items-center text-white" >1</div>
+                <div class="col-6 bg-warning">1</div>
+            </div>
           </div>
         </div>
       </div>
