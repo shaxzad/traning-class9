@@ -28,19 +28,30 @@ i{
     font-size: 25px;
 }
 #container .navigation{
-    display: grid;
-    grid-template-columns: 55% 1%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    justify-content: space-between;
     /* list-style-type: none; */
     padding: 20px 0px;
     text-transform: uppercase;
     /* color: white; */
 }
 #container .navbar ul{
-    display: grid;
-    grid-template-columns: 1% 8% 3% 7% 26%;
-    grid-gap: 100px;
+    display: inherit;
+    justify-content: space-between;
+    flex-direction: row;
+    /* border: solid 2px black; */
+    /* grid-template-columns: 1% 8% 3% 7% 26%; */
+    /* grid-gap: 100px; */
     list-style-type: none;
     padding: 0px 10px; 
+}
+.navbar{
+    display: inherit;
+    flex-direction: column;
+    /* justify-content: ; */
+    
 }
 .navbar-header{
     margin-left: 200px;
@@ -48,6 +59,13 @@ i{
 #container .navbar ul li a{
     color: white;
     text-decoration: none;
+    border: solid 1px white;
+    border-radius: 4px;
+    display: inherit;
+    flex-direction: row;
+    margin-left: 17px;
+    justify-content: space-between;
+    justify-content: right;
 }
 .left{
     float: left;
@@ -61,8 +79,12 @@ header .left img{
     padding-top: 200px;
     padding-left: 20px;
     margin-left: 200px;
+    line-height: 30px;
     /* text-transform: capitalize; */
     
+}
+h4 ,h1{
+    line-height: 100px;
 }
 #container h1 ,i{
     text-transform: uppercase;
@@ -99,10 +121,13 @@ header .left img{
     color: white;
 }
 .boxes{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    margin-left: 13%;
+    grid-gap: 15px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 3%;
 }
 .box1{
     width: 100px;
@@ -168,15 +193,21 @@ header .left img{
     text-transform: uppercase;
 }
 .sec4 .contain-rupiza{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 25% 35% 45%;
-    grid-gap: 40px;
-    padding: 40px 60px
+    grid-gap: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 60px;
     /* margin-right: 600px */
 }
 .sec4 .grid{
     padding: 40px 0px;
-    font-size: 30px
+    font-size: 30px;
+    /* padding: 0px 20px; */
+    text-transform: capitalize;
+    margin-left: 17px;
 }
 .sec4 .demond{
     font-size: 20px;
@@ -192,9 +223,14 @@ header .left img{
     padding: 40px 0px;
 }
 #sec5 .grid-img{
-    display: grid;
+    display: grid; 
     grid-template-columns: 23% 23% 20%;
-    grid-gap: 20px;
+    grid-gap: 10px; 
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* padding: 0px 20px; */
+    /* flex-wrap: nowrap; */
     margin-left: 360px;
 }
 #sec5 h1,ul li{
@@ -206,10 +242,13 @@ header .left img{
 }
 #sec5 .food-list ul {
     list-style-type: none;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 10% 10% 10% 10%;
-    grid-gap: 20px;
-    margin-left: 500px;
+    grid-gap: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin-left: 500px; */
     line-height: 60px;
 }   
 #sec6{
@@ -229,16 +268,18 @@ header .left img{
     padding: 110px 0px;
 }
 #sec6 img{
-    padding: 213% 15%;
+    padding: 220% 15%;
 }
 #sec6 h2{
     text-transform: uppercase;
 }
 #sec6 .rupiza-menus{
-    display: grid;
-    grid-template-columns: 9% 50%;
+    /* display: grid;
+    grid-template-columns: 9% 50%; */
     /* text-align: center; */
     margin-left: 30%;
+    display: flex;
+    flex-direction: row;
     /* padding: 400px; */
 }
 #sec7 h1{
@@ -250,9 +291,11 @@ header .left img{
     padding-bottom: 80px;
 }
 #sec7 .boxes{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
+    grid-gap: 15px; */
+    display: flex;
+    flex-direction: row;
     margin-left: 13%;
     padding: 40px 0px;
 }
@@ -290,9 +333,12 @@ button{
     text-transform: uppercase;
 }
 #sec8 .img-header{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 20% 20% 20%;
-    grid-gap: 112px;
+    grid-gap: 112px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 0% 15%;
 }
 #sec9 ,input ,textarea ,.hay{
@@ -359,7 +405,7 @@ button:focus{
     margin-top: 20px;
     border: solid 1px white;
     padding: 20px;
-    width: 200px;
+    width: 250px;
     background-color: silver;
     color: white;
     /* box-sizing: border-box; */
@@ -368,8 +414,8 @@ button:focus{
     background-color: black;
     color: white;
     text-align: center;
-    width: 200px;
-    padding: 20px;
+    width: 250px;
+    /* padding: 40px; */
     /* height: 200px; */
     margin-top: 20px;
 }
@@ -380,37 +426,78 @@ button:focus{
     text-transform: uppercase;
 }
 #sec10 button{
-    width: 40%;
+    width: 60%;
 }
 
 #sec10 h2 ,.box1-quarterly h2{
     font-size: 70px;
 }
 #sec11 .main-rupiza{
-    padding: 40px;
+    padding: 40px 60px;
     background-color: white;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 20% 20% 55%;
-    grid-gap: 53px;
+    grid-gap: 53px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-left: 10%;
 }
 #sec11 .container{
-    display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3 ,1fr); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 450px;
-    padding: 25px 0px;
+    /* margin-left: 30%; */
+    padding: 34px 0px;
+}
+#sec11 .container p{
+    padding: 0px 20px;
 }
 #sec11 .footer{
-    padding: 10px 0xpx;
+    padding: 5px 0px;
 }
 #sec11 .footer p{
     padding: 37px 0px;
+}
+#sec11 button{
+    width: 40%;
+}
+.tech{
+    /* padding: 40px; */
+    margin-left: 17px;
 }
 #sec11 h1{
     text-transform: uppercase;
 }
 #sec11 .img-main{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 18% 18% 18%;
-    grid-gap: 10px;
+    grid-gap: 10px; */
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin-left: 20px;
 }
+/* .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} */
+@media only screen and (max-width: 768px){
+        .col-4 {
+            width: 33.33%;
+            margin-right: 200px;
+            background-color: red;
+        }
+         
+    }
