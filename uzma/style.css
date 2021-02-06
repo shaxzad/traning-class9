@@ -1,0 +1,160 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	/* color: white; */
+}
+
+h1,
+h2,
+h3 {
+	color: white;
+}
+
+li {
+	list-style: none;
+	margin-left: 25px;
+}
+
+.Hero {
+	height: 400px;
+	background-image: url("./images/janko-ferlic-LGlBwZGjiwM-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -596px;
+}
+
+.div1 {
+	text-align: center;
+	height: 350px;
+	width: 50%;
+	float: left;
+	margin-top: 150px;
+}
+
+.div2 {
+	text-align: center;
+	vertical-align: bottom;
+	margin-top: 180px;
+
+	height: 350px;
+	width: 50%;
+	float: right;
+}
+
+ul {
+	display: flex;
+	float: right;
+	margin-right: 300px;
+}
+
+.Chapter {
+	color: black;
+	margin: 30px;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+th {
+	background-color: rgb(54, 52, 52);
+	color: white;
+}
+
+.btns {
+	justify-content: flex-end;
+	width: 100%;
+	height: 25px;
+	display: flex;
+	margin-top: 20px;
+	/* float: right; */
+}
+
+.sec1 {
+	width: 100%;
+	height: 30vh;
+	background-color: rgb(71, 60, 60);
+	text-align: center;
+}
+.main-div1 {
+	border: 1px solid chocolate;
+	width: 20%;
+	height: 15%;
+	margin: auto;
+}
+.main-div2 {
+	text-align: center;
+}
+
+.main-div3 {
+	border: 1px solid crimson;
+	width: 10%;
+	height: 10%;
+	margin: auto;
+}
+.span {
+	font-size: 4rem;
+	padding: 0 2rem;
+	margin-top: 3rem;
+	border: 1px solid black;
+	margin-top: 4rem;
+	margin-top: 23rem;
+}
+.span1 {
+	font-size: 3rem;
+	padding: 0 2rem;
+	margin-top: 3rem;
+	border: 1px solid black;
+	margin-bottom: 4rem;
+	margin-left: 6rem;
+}
+.span2 {
+	font-size: 3rem;
+	padding: 0 2rem;
+	margin-top: 3rem;
+	border: 1px solid black;
+	margin-bottom: 4rem;
+	margin-left: 6rem;
+}
+.class1 {
+	display: flex;
+	margin-top: 70px;
+	justify-content: center;
+
+	/* width: 100%; */
+	text-align: center;
+}
+
+.dev1 {
+	text-align: center;
+}
+.class2 {
+	text-align: center;
+	font-size: 3rem;
+	margin: 1px;
+}
+
+h5 {
+	margin-left: 95px;
+}
+
+.dev3 {
+	border: 1px solid black;
+	transform: rotate(47deg);
+	padding: 10px;
+	margin: 10px;
+}
+
+.straight {
+	transform: rotate(-20deg);
+}
