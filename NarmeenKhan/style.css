@@ -91,6 +91,7 @@ body{
     background-color: transparent;
     color: white;
     border-color: white;
+    margin: auto 595px;
 }
 .btn-secondary:hover {
     background-color: black;
@@ -100,7 +101,24 @@ body{
 .btn-secondary:focus {
     outline: none;
 }
-
+.btn-second{
+    background-color: rgb(51, 51, 240);
+    color: white;
+    border-color: rgb(51, 51, 240);
+    opacity: 0.9;
+    padding: 15px 30px;
+    font-size: 13px;
+    margin: 100px 560px;
+    display: block;
+}
+.btn-second:hover {
+    background-color: black;
+    border-color: black;
+    cursor: pointer;
+}
+.btn-second:focus {
+    outline: none;
+}
 /*Section 1 starts here*/
 .sec1{
     background-color: white;
@@ -129,7 +147,7 @@ h1{
 }
 
 h6{
-    color: white;
+    color: black;
 }
 h4{
     color: white;
@@ -141,11 +159,46 @@ h5{
 /*Section 1 end here*/
 
 /*Section 2 starts here*/
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+.container2{
+   padding: 50px 200px;
+   margin:  auto;
+    /* margin: -100px auto; */
+}
+.grid-profile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.circle-icon{
+        background: rgb(228, 227, 227);
+        padding:10px;
+        border-radius: 50%;
+}
+.container2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .container2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+/*Section 2 starts here*/  
+/*Section 3 starts here*/
 
 .box1{
     border: none;
     display: flex;
-    /* padding: 0px 240px; */
 }
 
 .box1 div {
@@ -157,15 +210,56 @@ h5{
     width: 100%;
     height: 100%;
 }
-/*Section 2 ends here*/
+/*
+.box1 img:hover{
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}*/
+.contain {
+    position: relative;
+    width: 50%;
+  }  
+  
+  .contain img {
+    width: 100%;
+    height: auto;
+  }  
+  
+  .contain .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contain .button:hover {
+    background-color: gray;
+  }
+  /*blur effect*/
+  img:hover{
+      -webkit-filter: blur(4px);
+  }
 
-/*Section 3 Starts here*/
+/*Section 3 ends here*/
+
+/*Section 4 Starts here*/
 .section-padding2{
     background-color: rgb(238, 238, 238);
     padding: 80px 0;
 }
+.grid-heading{
+    margin: 0 20px;
+    color: rgb(61, 19, 19);
+}
 .grid-item1 h3 {
-    color: #333;
+    color: rgb(61, 19, 19);
     font-size: 15px;
 }
 .grid-table1{
@@ -176,31 +270,30 @@ h5{
 }
 .grid-item1{
     border: black 2px;
-    padding: 10px 50px;
+    padding: 30px 20px;
     background-color: white;
     margin: 15px;
 }
-.grid-item1 p{
-    color: #333;
+p{
+    color: gray;
     line-height: 1.8;
 }
 progress{
     width: 450px;
     height: 10px;
 }
-/*Section 3 ends here*/
+/*Section 4 ends here*/
 
-/*Section 4 starts here*/
+/*Section 5 starts here*/
 .section-padding3{
  background-color: white;
  padding: 80px 0;
 }
-.container-fluid{
-    margin-left: 250px;
-}
-#head{
-    margin: 0px;  
-    width: 80%;
+/*.container-fluid{
+    margin-left: 350px;
+}*/
+#head{  
+    width: 75%;
     height:4rem;
     overflow: hidden;
 }
@@ -208,38 +301,40 @@ progress{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     list-style-type: none;
+    margin-left: 300px;
 }
 .container-fluid .list1 li a{
-    color: black;
+    color: gray;
     text-decoration: none;
 }
 .container-fluid .list1 li a:hover{
     background-color: blue;
     color: white;
-    padding: 5px 1px;
+    padding: 10px;
 }
 .container-fluid .list1 li a:active{
     background-color: blue;
     color: white;
 }
-.box1{
+.box2{
     border: none;
     display: flex;
-    /* padding: 0px 240px; */
+    text-align: center;
 }
 
-.box1 div {
+.box2 div {
     flex: 1;
     margin: 15px;
 }
 
-.box1 div img {
+.box2 div img {
     width: 100%;
     height: 100%;
 }
-/*Section 4 ends here*/
 
-/*Section 5 starts here*/
+/*Section 5 ends here*/
+
+/*Section 6 starts here*/
 .section-padding4{
     background-color: rgb(238, 238, 238);
     padding: 80px 0;
@@ -258,9 +353,9 @@ progress{
     margin: 10px 40px;
     text-align: center;
 }
-/*Section 5 ends here*/
+/*Section 6 ends here*/
 
-/*Section 6 starts here*/
+/*Section 7 starts here*/
 .sec6{
     background-image: url(./img/cover.jpg);
     background-repeat: no-repeat;
@@ -277,13 +372,10 @@ progress{
     align-content: center;
     justify-content: center;
  }
-.test{
-    width:30%;
-    align-items: center;  
-}
-/*Section 6 ends here*/
 
-/*Section 7 starts here*/
+/*Section 7 ends here*/
+
+/*Section 8 starts here*/
 .section-padding5{
     padding: 80px 0;
 }
@@ -295,11 +387,10 @@ progress{
 }
 .article{
     border: none;
-    padding: 0px 240px;
 }
-/*Section 7 ends here*/
+/*Section 8 ends here*/
 
-/*Section 8 starts here*/
+/*Section 9 starts here*/
 .section-padding6{
     background-color: rgb(238, 238, 238);
     padding: 80px 0;
@@ -310,30 +401,27 @@ progress{
 }
 .contact{
     border: none;
-    padding: 10px 50px;
+    padding: 40px 40px;
     background-color: white;
-    margin: 10px 40px;
+    margin: 10px 20px;
     text-align: center;
-}
-form{
-    padding-bottom: 100px;
 }
 .form-bg{
     text-align: center;
     display: block;
-    width: 90%;
-    padding: 20px;
-    padding-left: 50px;
+    width: 97%;
+    padding: 0 10x;
 }
 input{
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
-    margin: 10px 0px;
+    margin: 15px;
     border: none;
 }
 textarea{
     width: 100%;
     border: none;
+    margin: 15px;
 }
-/*Section 8 ends here*/
+/*Section 9 ends here*/
