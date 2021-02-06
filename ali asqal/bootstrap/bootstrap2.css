@@ -1,0 +1,220 @@
+body {
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgb(233, 150, 150);
+    font-family: 'Open Sans'
+}
+
+#demo {
+    background: linear-gradient(112deg, #ffffff 25%, antiquewhite 25%);
+    max-width: 900px;
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+.section-one i {
+    background-color: rgb(223, 56, 89);
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+/* Hover effect Css */
+.box{
+    overflow: hidden;
+    position: relative;
+}
+.box:before,
+.box:after,
+.box .box-content:before,
+.box .box-content:after{
+    content: "";
+    background: linear-gradient(to right bottom,#38ef7d,#11998e);
+    width: 50%;
+    height: 50%;
+    border-radius: 0 0 200% 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s ease-in;
+}
+.box:after{
+    transform: rotateY(180deg);
+    left: auto;
+    right: 0;
+}
+.box .box-content:before{
+    transform: rotateX(180deg);
+    top: auto;
+    bottom: 0;
+}
+.box .box-content:after{
+    transform: rotateZ(180deg);
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+.box:hover:before,
+.box:hover:after,
+.box:hover .box-content:before,
+.box:hover .box-content:after{
+    border-radius: 0;
+    opacity: 0.8;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.6s ease 0s;
+}
+.box:hover img{ transform: scale(1.2); }
+.box .box-content{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.box .box-content .inner-content{
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-50%) translateY(50%) rotateX(-90deg);
+    transform-origin: bottom center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transition: all 0.4s ease-in
+}
+.box:hover .box-content .inner-content{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) rotateX(0);
+}
+.box .title{
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 2px;
+}
+.box .post{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    display: block;
+}
+.box .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: rotateY(90deg);
+    transition: all 0.4s ease-in;
+}
+.box:hover .icon{
+    opacity: 1;
+    transform: rotateY(0);
+}
+.box .icon li{ display: inline-block; }
+.box .icon li a{
+    color: #38ef7d;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    padding: 0 0 0 2px;
+    border-radius: 50% 0 0 50%;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.box .icon li:nth-child(2) a{
+    padding: 0 2px 0 0;
+    border-radius: 0 50% 50% 0;
+}
+.box .icon li a:hover{
+    color: #fff;
+    background-color: #11998e;
+    box-shadow: 0 0 5px #11998e;
+}
+@media only screen and (max-width:990px){
+    .box { margin: 0 0 30px; }
+}
