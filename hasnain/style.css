@@ -1,0 +1,596 @@
+body{
+    background-color: white;
+    margin: 0px;
+    width: 100%;
+
+
+}
+/* helper classes */
+.sec2 .btn{
+    padding: 13px;
+    cursor: pointer;
+}
+.sec2 .btn:hover{
+    color: wheat;
+    background-color: black;
+}
+.btn-primary{
+    padding: 13px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:black ;
+    color:white ;
+}
+ .btn-secondary{
+    width:81vh;
+    padding: 12px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.btn-secondary:hover{
+    background-color:white;
+    color: rgb(240, 21, 21);
+}
+.btn-primary-theme{
+    padding: 15px;
+    cursor: pointer;
+
+}
+ .btn-primary-theme:hover{
+    background-color: black;
+    color: white;
+
+}
+
+/* section 1 */
+.sec1{
+    height: 450px;
+    width: 100%;
+    background-image: url(images/30.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1rf);
+    
+
+    
+}
+.head1{
+    text-align: center;
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    text-shadow: 2px 2px 8px white;
+}
+/* section 2 */
+.sec2{
+   background-color:white;
+   height: 625px;
+   width: 100%;
+   font-family: cursive;
+   padding-top: 60px;
+   
+}
+.sec2 .grid-0 i:hover{
+    color:white;
+}
+.sec2 .grid-0 .mouse:hover{
+    color:yellow;
+}
+.sec2 .project-1{
+    text-shadow: 2px 2px 8px black;
+}
+.sec2 .grid-0 .talent-1{
+    text-shadow: 2px 2px 8px black;
+}
+.sec2 .grid-0 .grid-h h2::first-letter{
+    color:black;
+    font-size: 2rem;
+}
+.sec2 .grid-0{
+    display: grid;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+.sec2 .grid-h{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-left: 210px;
+    padding-top: 25px;
+}
+.sec2 .grid-h i{
+    padding-right: 11px;
+    position: relative;
+    left: 6px;
+    top: 20px;
+}
+
+.sec2 .grid-h .heading-1{
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    transform: scale();
+}
+.sec2 .grid-h .heading-1:hover{
+    background-color: greenyellow;
+    transform: scale(1.3);
+
+}
+.sec2 .grid-h .heading-2{
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+}
+.sec2 .grid-h .heading-2:hover{
+    background-color: greenyellow;
+    transform: scale(1.3);
+}
+.sec2 .grid-h .heading-3{
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+}
+.sec2 .grid-h .heading-3:hover{
+    background-color: greenyellow;
+    transform: scale(1.3);
+}
+.sec2 .grid-h .heading-4{
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+}
+.sec2 .grid-h .heading-4:hover{
+    background-color: greenyellow;
+    transform: scale(1.3);
+}
+.sec2 .grid-h .mouse{
+    position: relative;
+    right: 106px;
+}
+
+/* section 3 */
+.sec3{
+    height: 380px;
+    width: 100%;
+    background-color:pink;
+    background-size: 100% 100%;
+    background-image: url(images/29.jpg);
+    font-family: cursive;
+    overflow: hidden;
+}
+.sec3 .grid-1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 18px;
+
+}
+.sec3 .grid-1 i{
+   position: relative;
+   right: 40px;
+}
+.grid-1{
+    padding-top: 91px;
+    padding-left:260px;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.849);
+}
+.sec3 .grid-1 p{
+    position: absolute;
+    margin-left: -39px;
+    font-size: 1.7rem;
+}
+.sec3 .grid-1 p::after{
+    content: "3";
+    font-size: 1rem;
+}
+.sec3 .grid-1 h4::first-letter{
+    color:white;
+    font-size: 2rem;
+}
+
+
+.sec3 .grid-1 h4{
+
+   font-size: 1rem;
+right: 34%;
+    top: 40%;
+    position: relative;
+}
+.sec3 .grid-1 .h4-1{
+
+    font-size: 1rem;
+     right: 20%;
+     top: 40%;
+     position: relative;
+ }
+ .sec3 .grid-1 .h4-2{
+
+    font-size: 1rem;
+     right: 23%;
+     top: 40%;
+     position: relative;
+ }
+ .sec3 .grid-1 .h4-3{
+
+    font-size: 1rem;
+     right: 26%;
+     top: 40%;
+     position: relative;
+ }
+
+ /* section 4 */
+ .sec4{
+     height: 875px;
+     width: 100%;
+     background-color:white;
+     box-sizing: border-box;
+     overflow: hidden;
+     padding-left: 60px;
+     padding-top: 25px;
+     font-family: cursive;
+   
+ }
+ .box5{
+     border: 1px solid black;
+     border: hidden;
+
+ }
+ .sec4 .grid-2{
+     display: grid;
+     grid-template-columns:50% 50%;
+     grid-gap: 41px;
+    padding-top: 83px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+ .sec4 .grid-2 .box5 .h-3{
+    margin: 0px;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 8px black;
+ }
+ .sec4 .grid-2 .box5 .progress-bar{
+     width: 70%;
+     cursor: pointer;
+ }
+ .sec4 .grid-2 .box5 .progress-bar:hover{
+     background-color: black;
+ }
+ /* section 5 */
+ .sec5{
+     height: 830PX;
+     width: 100%;
+     background-color:rgba(245, 245, 245, 0.925);
+     box-sizing: border-box;
+     overflow: hidden;
+     font-family: cursive;
+ }
+ .box6{
+     border:none;
+     text-align: center;
+     padding-top: 37px;
+ }
+ .sec5 .grid-3 .box6 .recent-1{
+     text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3{
+     display: grid;
+     grid-template-columns: 100%;
+ }
+ .sec5 .grid-3 .box7{
+     display: grid;
+     grid-template-columns:12% 14% 18% 7%;
+     grid-gap:12px ;
+     
+ }
+ .box7{
+
+    padding-left: 410px;
+    padding-top: 40px;
+ }
+ .box8{
+     border:none;
+     padding-top: 15px;
+ }
+ .sec5 .grid-3 .box8{
+     display: grid;
+     grid-template-columns:21% 21% 21%;
+     grid-template-rows: 51%;
+     grid-gap: 15px;
+     left: 16.3%;
+     position: relative;
+     padding-top: 40px;
+     
+ }
+ .sec5 .grid-3 .box7 .BOX7-1{
+    text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-1:hover{
+      color:red;
+ }
+ .sec5 .BOX7-2{
+    text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-2:hover{
+    color:aqua;
+}
+ .sec5 .BOX7-3{
+    text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-3:hover{
+    color:green;
+}
+ .sec5 .BOX7-4{
+     text-shadow: 2px 2px 8px black;
+ }
+ .sec5 .grid-3 .box7 .BOX7-4:hover{
+    color:rgb(214, 248, 19);
+}
+ .box8-1{
+     background-color: white;
+     height: 200px;
+     width: 270px;
+     background-image: url(images/31.jpg);
+     background-size: 100% 100%;
+     border: 1px solid black;
+     cursor: pointer;
+     
+ }
+ .box8-1:hover{
+     transform: scale(1.2);
+ }
+ .box8-2{
+    background-color: white;
+    height: 200px;
+    width: 270px;
+    background-image: url(images/12.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.box8-2:hover{
+    transform: scale(1.2);
+}
+.box8-3{
+    background-color: white;
+    height: 200px;
+    width: 270px;
+    background-image: url(images/6.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.box8-3:hover{
+    transform: scale(1.2);
+}
+.box8-4{
+    background-color: white;
+    height: 200px;
+    width: 270px;
+    background-image: url(images/13.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.box8-4:hover{
+    transform: scale(1.2);
+}
+.box8-5{
+    background-color: white;
+    height: 200px;
+    width: 270px;
+    background-image: url(images/30.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.box8-5:hover{
+    transform: scale(1.2);
+}
+.box8-6{
+    background-color: white;
+    height: 200px;
+    width: 270px;
+    background-image: url(images/11.jpg);
+    background-size: 100% 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.box8-6:hover{
+    transform: scale(1.2);
+}
+/* section 6 */
+.sec6{
+    height: 765PX;
+    width: 100%;
+     background-color:white;
+     box-sizing: border-box;
+     overflow: hidden;
+     font-family: cursive;
+     
+}
+.sec6 .project-1{
+    text-shadow: 2px 2px 8px black;
+}
+.box9{
+    text-align: center;
+    padding-top: 30px;
+}
+.box10{
+    border:none
+    
+}
+.box11{
+    border:none;
+    text-align: center;
+    margin-top: 118px;
+    width:480px;
+    height: 400px;
+    background-color: white;
+    margin-left: 110px;
+    background-image: url(images/13.jpg);
+    background-size: 100% 100%;
+    border-radius: 3px;
+    border: 0.5px solid black;
+}
+.box12{
+    border:none;
+   margin-left: 65px;
+    margin-top: 150px;
+    position:relative;
+}
+.sec6 .grid-5 {
+    display: grid;
+    grid-template-columns: 44% 44%;
+    padding-left: 25px;
+}
+/* section 7 */
+.sec7{
+    height: 520PX;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color:rgba(245, 245, 245, 0.712);
+    font-family: cursive;
+
+}
+.box13{
+    text-align: center;
+    padding-top: 20px;
+}
+.sec7 .grid-6 .box13-1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+.box13-1{
+    padding-top: 150px;
+    padding-left: 155px;
+    
+}
+.sec7 .project-1{
+    text-shadow: 2px 2px 8px black;
+}
+.sec7 .grid-6 .box13-1 .img-13{
+    border-radius: 58px;
+}
+.sec7 .grid-6 .box13-1 .img-13:hover{
+    transform: scale(1.3);
+}
+/* section 8 */
+.sec8{
+    height: 530px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color:rgb(0, 0, 0) ;
+    color: white;
+    text-align: center;
+    padding-top: 54px;
+    font-family: cursive;
+   
+}
+.sec8 .message{
+    height: 16vh;
+    width: 80vh;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    
+}
+.first-input{
+    padding: 11px 45px;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.second-input{
+    padding: 11px 45px;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+.third-input{
+    padding: 50px 187px;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+}
+
+
+
+/* section 9 */
+.sec9{
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color:white;
+    padding-left: 105px;
+    padding-top: 60px;
+    font-family: cursive;
+
+}
+.sec9 .grid-8{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.sec9 .para-a::after{
+    content: "Well designed four top online businesses";
+    position: absolute;
+    margin-top: 25px;
+    
+}
+.sec9 .para-b::after{
+    content: "Best design four top online businesses";
+    position: absolute;
+    margin-top: 25px;
+    
+}
+.sec9 .para-c::after{
+    content: "stylelish design four top online businesses";
+    position: absolute;
+    margin-top: 25px;
+    
+}
+.sec9 .project-1{
+    text-shadow: 2px 2px 8px black;
+}
+/* section 10 */
+.sec10{
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color:black;
+    color: white;
+    font-family: cursive;
+}
+.sec10 .grid-9{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.box10-1{
+    padding-left: 105px;
+    padding-top: 20px;
+
+}
+.box10-1:hover{
+    color: darkred;
+}
+.box10-2{
+    padding-top: 27px;
+    padding-left: 290px;
+}
+.box10-2:hover{
+    color:red;
+}
+.sec10 .grid-9 .box10-2 i{
+    padding: 15px;
+    padding-left: 11px;
+}
